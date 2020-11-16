@@ -41,8 +41,14 @@ echo  "jupiter" | net rpc rights grant "SAMBADOMAIN\Domain Backup Operators" SeB
 echo  "jupiter" | net rpc rights grant "SAMBADOMAIN\Domain Restore Operators" SeRestorePrivilege -U root
 echo "" | net rpc rights list 
 
-useradd -M -s /sbin/nologin ZULU$
+groupadd machines
+useradd -M -g machines -s /sbin/nologin ZULU$
 smbpasswd -m -a ZULU$
-useradd -M -s /sbin/nologin WIN10$
+useradd -M -g machines -s /sbin/nologin WIN10$
 smbpasswd -m -a WIN10$
+useradd -g machines -d /dev/null -c "a36" -s /bin/false a36$
+smbpasswd -m -a a36$
+useradd -g machines -d /dev/null -c "member" -s /bin/false member$
+smbpasswd -m -a member$
+
 

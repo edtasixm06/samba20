@@ -232,3 +232,78 @@ Valid starting     Expires            Service principal
 [root@ad docker]# kdestroy 
 ```
 
+#### Miscel·lània
+```
+smbstatus
+smb -b 
+```
+
+
+#### Winbind
+
+# Configurar /etc/nsswitch.conf per usar winbind
+```
+passwd:     files winbind systemd
+shadow:     files sss
+group:      files winbind systemd
+```
+
+# Cal tenir instal·lat samba-winbind-clients
+[root@ad docker]# wbinfo --ping-dc
+checking the NETLOGON for domain[EDT] dc connection to "ad.edt.org" succeeded
+
+[root@ad docker]# wbinfo -a Administrator
+Enter Administrator's password: 
+plaintext password authentication succeeded
+Enter Administrator's password: 
+challenge/response password authentication succeeded
+
+[root@ad docker]# wbinfo --all-domains
+BUILTIN
+EDT
+
+[root@ad docker]# wbinfo -i EDT\\administrator
+EDT\administrator:*:0:100::/home/EDT/administrator:/bin/false
+
+[root@ad docker]# getent passwd EDT\\administrator
+EDT\administrator:*:0:100::/home/EDT/administrator:/bin/false
+``` 
+
+Llistat d'informació
+``` 
+[root@ad docker]# wbinfo -D EDT
+Name              : EDT
+Alt_Name          : edt.org
+SID               : S-1-5-21-2003500921-2819830493-478582650
+Active Directory  : Yes
+Native            : Yes
+Primary           : Yes
+
+[root@ad docker]# wbinfo -u
+EDT\administrator
+EDT\guest
+EDT\krbtgt
+
+root@ad docker]# wbinfo -g    
+EDT\cert publishers
+EDT\ras and ias servers
+EDT\allowed rodc password replication group
+EDT\denied rodc password replication group
+EDT\dnsadmins
+EDT\enterprise read-only domain controllers
+EDT\domain admins
+EDT\domain users
+EDT\domain guests
+EDT\domain computers
+EDT\domain controllers
+EDT\schema admins
+EDT\enterprise admins
+EDT\group policy creator owners
+EDT\read-only domain controllers
+EDT\dnsupdateproxy
+
+[root@ad docker]# wbinfo --pam-logon EDT\\administrator
+Enter EDT\administrator's password: 
+plaintext password authentication succeeded
+```
+

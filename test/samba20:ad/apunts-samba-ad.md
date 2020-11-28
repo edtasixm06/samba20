@@ -307,3 +307,13 @@ Enter EDT\administrator's password:
 plaintext password authentication succeeded
 ```
 
+
+#### Autenticació PAM pam_winbind.so
+
+
+```
+[root@ad docker]# ls /usr/lib64/security/pam_winbind.so 
+/usr/lib64/security/pam_winbind.so
+
+
+```

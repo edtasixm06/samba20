@@ -330,3 +330,30 @@ ldap_bind: Strong(er) authentication required (8)
 Sembla que requereix que la connexió sigui usant TLS.
 Examinar com contactar amb el servidor ldap del samba i examinar també els certificats
 
+
+# Creació d'usuaris
+
+CN=samba01,CN=Users,DC=edt,DC=org
+
+```
+[root@ad docker]# smbpasswd -a samba03
+New SMB password:  Samba03
+Retype new SMB password: Samba03
+Added user samba03.
+
+[root@ad docker]# pdbedit -L
+AD$:3000019:
+Administrator:0:
+samba01:3000020:
+samba02:3000021:
+samba03:3000022:
+krbtgt:3000023:
+nobody:99:Nobody
+
+[root@ad docker]# smbclient //localhost/netlogon -U samba01
+Enter EDT\samba01's password: 
+Try "help" to get a list of possible commands.
+smb: \> 
+
+```
+

@@ -317,3 +317,16 @@ plaintext password authentication succeeded
 
 
 ```
+
+#### Test connectivitat ldap
+
+Cal tenir instal·lat *openldap-clients*
+```
+$ ldapsearch -vx -LLL -h 172.19.0.2 -D 'cn=Administrator,cn=edt,dc=org' -w Passw0rd
+ldap_initialize( ldap://172.19.0.2 )
+ldap_bind: Strong(er) authentication required (8)
+	additional info: BindSimple: Transport encryption required.
+```
+Sembla que requereix que la connexió sigui usant TLS.
+Examinar com contactar amb el servidor ldap del samba i examinar també els certificats
+

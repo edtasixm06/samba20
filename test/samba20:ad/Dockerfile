@@ -1,5 +1,5 @@
 FROM fedora:27
-RUN dnf -y install vim wget iproute procps nmap iputils tree samba samba-client samba-dc bind-utils openldap-clients krb5-workstation samba-winbind-clients
+RUN dnf -y install vim wget iproute procps nmap iputils tree samba samba-client samba-dc bind-utils openldap-clients krb5-workstation samba-winbind-clients ldb-tools
 RUN mkdir /opt/docker
 COPY . /opt/docker
 WORKDIR /opt/docker

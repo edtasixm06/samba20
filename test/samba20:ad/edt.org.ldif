@@ -1,0 +1,5613 @@
+dn: CN=RID Manager$,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: rIDManager
+cn: RID Manager$
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3503
+showInAdvancedViewOnly: TRUE
+name: RID Manager$
+objectGUID:: Q3wap9R1QEiti8XnoQMN2w==
+rIDAvailablePool: 4611686014132422208
+systemFlags: -1946157056
+objectCategory: CN=RID-Manager,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+fSMORoleOwner: CN=NTDS Settings,CN=AD,CN=Servers,CN=Default-First-Site-Name,CN
+ =Sites,CN=Configuration,DC=edt,DC=org
+uSNChanged: 3598
+distinguishedName: CN=RID Manager$,CN=System,DC=edt,DC=org
+
+dn: DC=c.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3618
+uSNChanged: 3618
+showInAdvancedViewOnly: TRUE
+name: c.root-servers.net
+objectGUID:: 65pgGcoCDU2RUtSVbkBazg==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAwCEEDA==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: c.root-servers.net
+distinguishedName: DC=c.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: CN=de10d491-909f-4fb0-9abb-4b7865c0fe80,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: de10d491-909f-4fb0-9abb-4b7865c0fe80
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3468
+uSNChanged: 3468
+showInAdvancedViewOnly: TRUE
+name: de10d491-909f-4fb0-9abb-4b7865c0fe80
+objectGUID:: 1oc26p3xAECQ7y8tEhtxoA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=de10d491-909f-4fb0-9abb-4b7865c0fe80,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=ipsecPolicy{72385230-70FA-11D1-864C-14A300000000},CN=IP Security,CN=Sys
+ tem,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecPolicy
+cn: ipsecPolicy{72385230-70FA-11D1-864C-14A300000000}
+description: For all IP traffic, always request security using Kerberos trust.
+  Allow unsecured communication with clients that do not respond to request.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3477
+showInAdvancedViewOnly: TRUE
+name: ipsecPolicy{72385230-70FA-11D1-864C-14A300000000}
+objectGUID:: bEBqRKMXVEqqyaGP36dp+A==
+ipsecName: Server (Request Security)
+ipsecID: {72385230-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: YyEgIkxP0RGGOwCgJI0wIQQAAAAwKgAAAA==
+ipsecNFAReference: CN=ipsecNFA{594272E2-071D-11D3-AD22-0060B0ECCA17},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+ipsecNFAReference: CN=ipsecNFA{59319BE2-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+ipsecNFAReference: CN=ipsecNFA{72385232-70FA-11D1-864C-14A300000000},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-Policy,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+ipsecISAKMPReference: CN=ipsecISAKMPPolicy{72385231-70FA-11D1-864C-14A30000000
+ 0},CN=IP Security,CN=System,DC=edt,DC=org
+whenChanged: 20201128201056.0Z
+uSNChanged: 3693
+distinguishedName: CN=ipsecPolicy{72385230-70FA-11D1-864C-14A300000000},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+
+dn: CN=Administrators,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Administrators
+description: Administrators have complete and unrestricted access to the compu
+ ter/domain
+member: CN=Domain Admins,CN=Users,DC=edt,DC=org
+member: CN=Enterprise Admins,CN=Users,DC=edt,DC=org
+member: CN=Administrator,CN=Users,DC=edt,DC=org
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3562
+uSNChanged: 3562
+name: Administrators
+objectGUID:: qDlKj0vl8EK2ae4YELg0Xw==
+objectSid:: AQIAAAAAAAUgAAAAIAIAAA==
+adminCount: 1
+sAMAccountName: Administrators
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Administrators,CN=Builtin,DC=edt,DC=org
+
+dn: CN=4c93ad42-178a-4275-8600-16811d28f3aa,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 4c93ad42-178a-4275-8600-16811d28f3aa
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3457
+uSNChanged: 3457
+showInAdvancedViewOnly: TRUE
+name: 4c93ad42-178a-4275-8600-16811d28f3aa
+objectGUID:: wvi8KYTEfEiTwuIppkkpxg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=4c93ad42-178a-4275-8600-16811d28f3aa,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=Server Operators,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Server Operators
+description: Members can administer domain servers
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3566
+uSNChanged: 3566
+name: Server Operators
+objectGUID:: 2k9+52z2ZESxZR2wGqOgpw==
+objectSid:: AQIAAAAAAAUgAAAAJQIAAA==
+adminCount: 1
+sAMAccountName: Server Operators
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Server Operators,CN=Builtin,DC=edt,DC=org
+
+dn: CN=6bcd5681-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd5681-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3434
+uSNChanged: 3434
+showInAdvancedViewOnly: TRUE
+name: 6bcd5681-8314-11d6-977b-00c04f613221
+objectGUID:: i9BVSskj1UGeOT8Hxe4ETg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd5681-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: DC=l.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3611
+uSNChanged: 3611
+showInAdvancedViewOnly: TRUE
+name: l.root-servers.net
+objectGUID:: xsxaJew5wUSdVsxRFzELow==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAxwdTKg==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: l.root-servers.net
+distinguishedName: DC=l.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: CN=6bcd568d-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd568d-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3446
+uSNChanged: 3446
+showInAdvancedViewOnly: TRUE
+name: 6bcd568d-8314-11d6-977b-00c04f613221
+objectGUID:: 0CcMv5VP5UanaQc0+M9JPg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd568d-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=ipsecISAKMPPolicy{72385237-70FA-11D1-864C-14A300000000},CN=IP Security,
+ CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecISAKMPPolicy
+cn: ipsecISAKMPPolicy{72385237-70FA-11D1-864C-14A300000000}
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3488
+uSNChanged: 3488
+showInAdvancedViewOnly: TRUE
+name: ipsecISAKMPPolicy{72385237-70FA-11D1-864C-14A300000000}
+objectGUID:: io+0zowkXUOJKXYQKwOHpw==
+ipsecID: {72385237-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: uCDcgMgu0RGongCgJI0wIUABAABz7EFfHQfTEa0iAGCw7MoXAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAADNzQMAAABAAAAACAAAAAIAAABAAAA
+ AAAAAAAAAAAAAAAAAAAAAAADNzc0CAAAAAAAAAAAAAACAcAAAzc3NzQAAzc0DAAAAQAAAAAgAAAAB
+ AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAzc3NAgAAAAAAAAAAAAAAgHAAAM3Nzc0AAM3NAQAAAEAAA
+ AAIAAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAM3NzQEAAAAAAAAAAAAAAIBwAADNzc3NAADNzQ
+ EAAABAAAAACAAAAAEAAABAAAAAAAAAAAAAAAAAAAAAAAAAAADNzc0BAAAAAAAAAAAAAACAcAAAzc3
+ NzQA=
+ipsecOwnersReference: CN=ipsecPolicy{72385236-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-ISAKMP-Policy,CN=Schema,CN=Configuration,DC=edt,DC=or
+ g
+isCriticalSystemObject: TRUE
+distinguishedName: CN=ipsecISAKMPPolicy{72385237-70FA-11D1-864C-14A300000000},
+ CN=IP Security,CN=System,DC=edt,DC=org
+
+dn: CN=group,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: group
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3762
+uSNChanged: 3762
+showInAdvancedViewOnly: TRUE
+name: group
+objectGUID:: RsvKOJYHB0iuZ9qJTeSl5Q==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=group,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+
+dn: CN=hosts,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: hosts
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3733
+uSNChanged: 3733
+showInAdvancedViewOnly: TRUE
+name: hosts
+objectGUID:: BvMYRGXmXUysfFM51biRpQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=hosts,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+
+dn: CN=6bcd5686-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd5686-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3439
+uSNChanged: 3439
+showInAdvancedViewOnly: TRUE
+name: 6bcd5686-8314-11d6-977b-00c04f613221
+objectGUID:: 4steb3VPI0aiT+6YiTgYnw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd5686-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: DC=e.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3613
+uSNChanged: 3613
+showInAdvancedViewOnly: TRUE
+name: e.root-servers.net
+objectGUID:: o3K5Vaei1kGBrim2vxvQ6Q==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAwMvmCg==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: e.root-servers.net
+distinguishedName: DC=e.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: CN=aed72870-bf16-4788-8ac7-22299c8207f1,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: aed72870-bf16-4788-8ac7-22299c8207f1
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3464
+uSNChanged: 3464
+showInAdvancedViewOnly: TRUE
+name: aed72870-bf16-4788-8ac7-22299c8207f1
+objectGUID:: TzK3bJgzGEaINYaV1mgC9Q==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=aed72870-bf16-4788-8ac7-22299c8207f1,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=LostAndFound,DC=edt,DC=org
+objectClass: top
+objectClass: lostAndFound
+cn: LostAndFound
+description: Default container for orphaned objects
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3381
+uSNChanged: 3381
+showInAdvancedViewOnly: TRUE
+name: LostAndFound
+objectGUID:: lZij7thNh02YKkGgHOx9sQ==
+systemFlags: -1946157056
+objectCategory: CN=Lost-And-Found,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=LostAndFound,DC=edt,DC=org
+
+dn: CN=S-1-5-17,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+objectClass: top
+objectClass: foreignSecurityPrincipal
+cn: S-1-5-17
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3561
+uSNChanged: 3561
+showInAdvancedViewOnly: TRUE
+name: S-1-5-17
+objectGUID:: +ks9J2gRbUSt8EbRIPieVQ==
+objectSid:: AQEAAAAAAAURAAAA
+objectCategory: CN=Foreign-Security-Principal,CN=Schema,CN=Configuration,DC=ed
+ t,DC=org
+memberOf: CN=IIS_IUSRS,CN=Builtin,DC=edt,DC=org
+distinguishedName: CN=S-1-5-17,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+
+dn: CN=6bcd5682-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd5682-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3435
+uSNChanged: 3435
+showInAdvancedViewOnly: TRUE
+name: 6bcd5682-8314-11d6-977b-00c04f613221
+objectGUID:: 3V3CHgUihkW4CYZnY7i0Jg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd5682-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=293f0798-ea5c-4455-9f5d-45f33a30703b,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 293f0798-ea5c-4455-9f5d-45f33a30703b
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3416
+uSNChanged: 3416
+showInAdvancedViewOnly: TRUE
+name: 293f0798-ea5c-4455-9f5d-45f33a30703b
+objectGUID:: o1/4InZ900WsIV+xymSAYA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=293f0798-ea5c-4455-9f5d-45f33a30703b,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=ActiveDirectoryUpdate,CN=DomainUpdates,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: ActiveDirectoryUpdate
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3397
+uSNChanged: 3397
+showInAdvancedViewOnly: TRUE
+name: ActiveDirectoryUpdate
+objectGUID:: vZW3vsC9h06+LpnLSi224w==
+revision: 5
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=ActiveDirectoryUpdate,CN=DomainUpdates,CN=System,DC=edt,
+ DC=org
+
+dn: CN=File Replication Service,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: applicationSettings
+objectClass: nTFRSSettings
+cn: File Replication Service
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3472
+uSNChanged: 3472
+showInAdvancedViewOnly: TRUE
+name: File Replication Service
+objectGUID:: p/IfNMDQPkyhYsilIITyDg==
+systemFlags: -1946157056
+objectCategory: CN=NTFRS-Settings,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=File Replication Service,CN=System,DC=edt,DC=org
+
+dn: CN=6bcd567e-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd567e-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3431
+uSNChanged: 3431
+showInAdvancedViewOnly: TRUE
+name: 6bcd567e-8314-11d6-977b-00c04f613221
+objectGUID:: Ok18R7wQVESetNB0cUC3Jw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd567e-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: DC=g.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3617
+uSNChanged: 3617
+showInAdvancedViewOnly: TRUE
+name: g.root-servers.net
+objectGUID:: wiLERIrurkyZTkhAISDYcw==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAwHAkBA==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: g.root-servers.net
+distinguishedName: DC=g.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: CN=9cac1f66-2167-47ad-a472-2a13251310e4,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 9cac1f66-2167-47ad-a472-2a13251310e4
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3412
+uSNChanged: 3412
+showInAdvancedViewOnly: TRUE
+name: 9cac1f66-2167-47ad-a472-2a13251310e4
+objectGUID:: f2NrHVu5E0KAZsgjyQNicA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=9cac1f66-2167-47ad-a472-2a13251310e4,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=mail,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: mail
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3715
+uSNChanged: 3715
+showInAdvancedViewOnly: TRUE
+name: mail
+objectGUID:: gKDkDCUO0Eqma/vLnlc4PQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=mail,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+
+dn: CN=Default Domain Policy,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: leaf
+objectClass: domainPolicy
+cn: Default Domain Policy
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3389
+uSNChanged: 3389
+showInAdvancedViewOnly: TRUE
+name: Default Domain Policy
+objectGUID:: 4dGJl/NkhEibDOkyVHCANg==
+objectCategory: CN=Domain-Policy,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Default Domain Policy,CN=System,DC=edt,DC=org
+
+dn: CN=MicrosoftDNS,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: MicrosoftDNS
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3604
+uSNChanged: 3604
+showInAdvancedViewOnly: TRUE
+name: MicrosoftDNS
+objectGUID:: awDFDI/geEqrK2rBwBQ62g==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=MicrosoftDNS,CN=System,DC=edt,DC=org
+
+dn: CN=6bcd567a-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd567a-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3427
+uSNChanged: 3427
+showInAdvancedViewOnly: TRUE
+name: 6bcd567a-8314-11d6-977b-00c04f613221
+objectGUID:: J9EmxemNaUej9L444w0JKg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd567a-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: DC=i.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3612
+uSNChanged: 3612
+showInAdvancedViewOnly: TRUE
+name: i.root-servers.net
+objectGUID:: QBwynHZdgECJRSreo0+m3w==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAwCSUEQ==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: i.root-servers.net
+distinguishedName: DC=i.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: CN=6bcd567f-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd567f-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3432
+uSNChanged: 3432
+showInAdvancedViewOnly: TRUE
+name: 6bcd567f-8314-11d6-977b-00c04f613221
+objectGUID:: eTt4YMXsNEK0OwpnWVfs7A==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd567f-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=6ff880d6-11e7-4ed1-a20f-aac45da48650,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6ff880d6-11e7-4ed1-a20f-aac45da48650
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3413
+uSNChanged: 3413
+showInAdvancedViewOnly: TRUE
+name: 6ff880d6-11e7-4ed1-a20f-aac45da48650
+objectGUID:: nc+dalXUmUODwc15BLVUGA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6ff880d6-11e7-4ed1-a20f-aac45da48650,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=Performance Monitor Users,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Performance Monitor Users
+description: Members of this group can access performance counter data locally
+  and remotely
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3574
+uSNChanged: 3574
+name: Performance Monitor Users
+objectGUID:: fuVo25Ekgka++6thTdKotQ==
+objectSid:: AQIAAAAAAAUgAAAALgIAAA==
+sAMAccountName: Performance Monitor Users
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Performance Monitor Users,CN=Builtin,DC=edt,DC=org
+
+dn: CN=Allowed RODC Password Replication Group,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Allowed RODC Password Replication Group
+description: Members in this group can have their passwords replicated to all 
+ read-only domain controllers in the domain
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3556
+uSNChanged: 3556
+name: Allowed RODC Password Replication Group
+objectGUID:: qd49ufvaN0KJnKWndOr6dQ==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUOwIAAA==
+sAMAccountName: Allowed RODC Password Replication Group
+sAMAccountType: 536870912
+groupType: -2147483644
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Allowed RODC Password Replication Group,CN=Users,DC=edt,
+ DC=org
+
+dn: CN=Windows2003Update,CN=DomainUpdates,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: Windows2003Update
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3471
+uSNChanged: 3471
+showInAdvancedViewOnly: TRUE
+name: Windows2003Update
+objectGUID:: 5v3iRM8n0kiDi/RIeeetTA==
+revision: 9
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=Windows2003Update,CN=DomainUpdates,CN=System,DC=edt,DC=o
+ rg
+
+dn: DC=b.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3609
+uSNChanged: 3609
+showInAdvancedViewOnly: TRUE
+name: b.root-servers.net
+objectGUID:: pfAWUEyFkE+t5Ksbh8FPCA==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAwORPyQ==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: b.root-servers.net
+distinguishedName: DC=b.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: DC=edt,DC=org
+objectClass: top
+objectClass: domain
+objectClass: domainDNS
+instanceType: 5
+whenCreated: 20201128201050.0Z
+uSNCreated: 8
+name: edt
+objectGUID:: 1eHXwcKBU0SxMg8OZkuyug==
+objectSid:: AQQAAAAAAAUVAAAAPrR3fNk6AZLwayyU
+objectCategory: CN=Domain-DNS,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: edt
+auditingPolicy:: AAE=
+creationTime: 132510678500000000
+forceLogoff: -9223372036854775808
+gPLink: [LDAP://CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=Syste
+ m,DC=edt,DC=org;0]
+isCriticalSystemObject: TRUE
+lockoutDuration: -18000000000
+lockOutObservationWindow: -18000000000
+lockoutThreshold: 0
+maxPwdAge: -36288000000000
+minPwdAge: -864000000000
+minPwdLength: 7
+modifiedCount: 1
+modifiedCountAtLastProm: 0
+msDS-AllUsersTrustQuota: 1000
+msDS-Behavior-Version: 4
+ms-DS-MachineAccountQuota: 10
+msDS-NcType: 0
+msDS-PerUserTrustQuota: 1
+msDS-PerUserTrustTombstonesQuota: 10
+nextRid: 1000
+nTMixedDomain: 0
+oEMInformation: Provisioned by SAMBA 4.7.10
+pwdProperties: 1
+pwdHistoryLength: 24
+serverState: 1
+systemFlags: -1946157056
+uASCompat: 1
+rIDManagerReference: CN=RID Manager$,CN=System,DC=edt,DC=org
+wellKnownObjects: B:32:6227F0AF1FC2410D8E3BB10615BB5B0F:CN=NTDS Quotas,DC=edt,
+ DC=org
+wellKnownObjects: B:32:F4BE92A4C777485E878E9421D53087DB:CN=Microsoft,CN=Progra
+ m Data,DC=edt,DC=org
+wellKnownObjects: B:32:09460C08AE1E4A4EA0F64AEE7DAA1E5A:CN=Program Data,DC=edt
+ ,DC=org
+wellKnownObjects: B:32:22B70C67D56E4EFB91E9300FCA3DC1AA:CN=ForeignSecurityPrin
+ cipals,DC=edt,DC=org
+wellKnownObjects: B:32:18E2EA80684F11D2B9AA00C04F79F805:CN=Deleted Objects,DC=
+ edt,DC=org
+wellKnownObjects: B:32:2FBAC1870ADE11D297C400C04FD8D5CD:CN=Infrastructure,DC=e
+ dt,DC=org
+wellKnownObjects: B:32:AB8153B7768811D1ADED00C04FD8D5CD:CN=LostAndFound,DC=edt
+ ,DC=org
+wellKnownObjects: B:32:AB1D30F3768811D1ADED00C04FD8D5CD:CN=System,DC=edt,DC=or
+ g
+wellKnownObjects: B:32:A361B2FFFFD211D1AA4B00C04FD7D83A:OU=Domain Controllers,
+ DC=edt,DC=org
+wellKnownObjects: B:32:AA312825768811D1ADED00C04FD8D5CD:CN=Computers,DC=edt,DC
+ =org
+wellKnownObjects: B:32:A9D1CA15768811D1ADED00C04FD8D5CD:CN=Users,DC=edt,DC=org
+whenChanged: 20201128201054.0Z
+msDs-masteredBy: CN=NTDS Settings,CN=AD,CN=Servers,CN=Default-First-Site-Name,
+ CN=Sites,CN=Configuration,DC=edt,DC=org
+msDS-IsDomainFor: CN=NTDS Settings,CN=AD,CN=Servers,CN=Default-First-Site-Name
+ ,CN=Sites,CN=Configuration,DC=edt,DC=org
+masteredBy: CN=NTDS Settings,CN=AD,CN=Servers,CN=Default-First-Site-Name,CN=Si
+ tes,CN=Configuration,DC=edt,DC=org
+fSMORoleOwner: CN=NTDS Settings,CN=AD,CN=Servers,CN=Default-First-Site-Name,CN
+ =Sites,CN=Configuration,DC=edt,DC=org
+uSNChanged: 3596
+distinguishedName: DC=edt,DC=org
+
+dn: CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Pre-Windows 2000 Compatible Access
+description: A backward compatibility group which allows read access on all us
+ ers and groups in the domain
+member: CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3570
+uSNChanged: 3570
+name: Pre-Windows 2000 Compatible Access
+objectGUID:: rapkYlYlFkupDW1NOHMYkQ==
+objectSid:: AQIAAAAAAAUgAAAAKgIAAA==
+sAMAccountName: Pre-Windows 2000 Compatible Access
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=edt,DC=
+ org
+
+dn: CN=231fb90b-c92a-40c9-9379-bacfc313a3e3,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 231fb90b-c92a-40c9-9379-bacfc313a3e3
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3454
+uSNChanged: 3454
+showInAdvancedViewOnly: TRUE
+name: 231fb90b-c92a-40c9-9379-bacfc313a3e3
+objectGUID:: 0mlh+UZwZ0WhXxi+8eg1Pw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=231fb90b-c92a-40c9-9379-bacfc313a3e3,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=User,CN={6AC1786C-016F-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC
+ =edt,DC=org
+objectClass: top
+objectClass: container
+cn: User
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3589
+uSNChanged: 3589
+showInAdvancedViewOnly: TRUE
+name: User
+objectGUID:: ePS9yWvUs0eDl7WUUx25Ng==
+systemFlags: -1946157056
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=User,CN={6AC1786C-016F-11D2-945F-00C04FB984F9},CN=Polici
+ es,CN=System,DC=edt,DC=org
+
+dn: DC=k.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3615
+uSNChanged: 3615
+showInAdvancedViewOnly: TRUE
+name: k.root-servers.net
+objectGUID:: PhgIxv9LekiSF0IC6uuAMA==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAwQAOgQ==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: k.root-servers.net
+distinguishedName: DC=k.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: CN=RAS and IAS Servers Access Check,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: RAS and IAS Servers Access Check
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3502
+uSNChanged: 3502
+showInAdvancedViewOnly: TRUE
+name: RAS and IAS Servers Access Check
+objectGUID:: Q2fbIcGfKUawMaV0vUV6TQ==
+systemFlags: -1946157056
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=RAS and IAS Servers Access Check,CN=System,DC=edt,DC=org
+
+dn: CN=Print Operators,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Print Operators
+description: Members can administer domain printers
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3567
+uSNChanged: 3567
+name: Print Operators
+objectGUID:: MZ0nVeNB70SzkYM5fI2R5Q==
+objectSid:: AQIAAAAAAAUgAAAAJgIAAA==
+adminCount: 1
+sAMAccountName: Print Operators
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Print Operators,CN=Builtin,DC=edt,DC=org
+
+dn: CN=7868d4c8-ac41-4e05-b401-776280e8e9f1,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 7868d4c8-ac41-4e05-b401-776280e8e9f1
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3403
+uSNChanged: 3403
+showInAdvancedViewOnly: TRUE
+name: 7868d4c8-ac41-4e05-b401-776280e8e9f1
+objectGUID:: uK1APm6AGEyDMyW9XFv0WA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=7868d4c8-ac41-4e05-b401-776280e8e9f1,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: DC=d.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3614
+uSNChanged: 3614
+showInAdvancedViewOnly: TRUE
+name: d.root-servers.net
+objectGUID:: YuhgvTOf60uOFFtQ4t6/zQ==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAxwdbDQ==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: d.root-servers.net
+distinguishedName: DC=d.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: CN=Certificate Service DCOM Access,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Certificate Service DCOM Access
+description: Members of this group are allowed to connect to Certification Aut
+ horities in the enterprise
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3582
+uSNChanged: 3582
+name: Certificate Service DCOM Access
+objectGUID:: BM7PT2/gO0WyoHlcZ/pvyg==
+objectSid:: AQIAAAAAAAUgAAAAPgIAAA==
+sAMAccountName: Certificate Service DCOM Access
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Certificate Service DCOM Access,CN=Builtin,DC=edt,DC=org
+
+dn: CN=3051c66f-b332-4a73-9a20-2d6a7d6e6a1c,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 3051c66f-b332-4a73-9a20-2d6a7d6e6a1c
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3447
+uSNChanged: 3447
+showInAdvancedViewOnly: TRUE
+name: 3051c66f-b332-4a73-9a20-2d6a7d6e6a1c
+objectGUID:: l3188hbkEUS8IeKo4Lg2rQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=3051c66f-b332-4a73-9a20-2d6a7d6e6a1c,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: builtinDomain
+cn: Builtin
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3376
+uSNChanged: 3376
+showInAdvancedViewOnly: FALSE
+name: Builtin
+objectGUID:: 2+GSzXcCfU6GvpiEq4+uHQ==
+creationTime: 132510678540000000
+forceLogoff: -9223372036854775808
+lockoutDuration: -18000000000
+lockOutObservationWindow: -18000000000
+lockoutThreshold: 0
+maxPwdAge: -37108517437440
+minPwdAge: 0
+minPwdLength: 0
+modifiedCountAtLastProm: 0
+nextRid: 1000
+pwdProperties: 0
+pwdHistoryLength: 0
+objectSid:: AQEAAAAAAAUgAAAA
+serverState: 1
+uASCompat: 1
+modifiedCount: 1
+systemFlags: -1946157056
+objectCategory: CN=Builtin-Domain,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Builtin,DC=edt,DC=org
+
+dn: DC=m.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3610
+uSNChanged: 3610
+showInAdvancedViewOnly: TRUE
+name: m.root-servers.net
+objectGUID:: URqzLQZ2sk6zFOzWNi9wVQ==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAygwbIQ==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: m.root-servers.net
+distinguishedName: DC=m.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: CN=aliases,CN=mail,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: aliases
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3717
+uSNChanged: 3717
+showInAdvancedViewOnly: TRUE
+name: aliases
+objectGUID:: 40KJrMrrAkqNfqpQ4H72wA==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Name
+msSFU30FieldSeparator:: Og==
+msSFU30IntraFieldSeparator: ,
+msSFU30SearchAttributes: msSFU30Aliases
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: msSFU30Aliases
+msSFU30MapFilter: (objectCategory=msSFU30MailAliases)
+distinguishedName: CN=aliases,CN=mail,CN=ypServ30,CN=RpcServices,CN=System,DC=
+ edt,DC=org
+
+dn: CN=DFSR-GlobalSettings,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msDFSR-GlobalSettings
+cn: DFSR-GlobalSettings
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3392
+uSNChanged: 3392
+showInAdvancedViewOnly: TRUE
+name: DFSR-GlobalSettings
+objectGUID:: D8+D+jz5gkGJf/OCv7aC4Q==
+objectCategory: CN=ms-DFSR-GlobalSettings,CN=Schema,CN=Configuration,DC=edt,DC
+ =org
+msDFSR-Flags: 48
+distinguishedName: CN=DFSR-GlobalSettings,CN=System,DC=edt,DC=org
+
+dn: CN=ypservers,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: ypservers
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3766
+uSNChanged: 3766
+showInAdvancedViewOnly: TRUE
+name: ypservers
+objectGUID:: oBmNmeOVjEK4wHKu2OTmKw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=ypservers,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC
+ =org
+
+dn: CN=ab402345-d3c3-455d-9ff7-40268a1099b6,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: ab402345-d3c3-455d-9ff7-40268a1099b6
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3399
+uSNChanged: 3399
+showInAdvancedViewOnly: TRUE
+name: ab402345-d3c3-455d-9ff7-40268a1099b6
+objectGUID:: 2YILaH/4fEKweHCc0TdFnw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=ab402345-d3c3-455d-9ff7-40268a1099b6,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=Policies,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: Policies
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3501
+uSNChanged: 3501
+showInAdvancedViewOnly: TRUE
+name: Policies
+objectGUID:: scmfgEC9qkq7H72Iru4G/w==
+systemFlags: -1946157056
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Policies,CN=System,DC=edt,DC=org
+
+dn: CN=AD,OU=Domain Controllers,DC=edt,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+objectClass: computer
+cn: AD
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3583
+name: AD
+objectGUID:: j/M+TGAEM0i2mriOeOH4wA==
+userAccountControl: 532480
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+localPolicyFlags: 0
+pwdLastSet: 132510678547752240
+primaryGroupID: 516
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyU6AMAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: AD$
+sAMAccountType: 805306369
+operatingSystem: Samba
+operatingSystemVersion: 4.7.10
+dNSHostName: ad.edt.org
+objectCategory: CN=Computer,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+rIDSetReferences: CN=RID Set,CN=AD,OU=Domain Controllers,DC=edt,DC=org
+serverReferenceBL: CN=AD,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Con
+ figuration,DC=edt,DC=org
+msDS-SupportedEncryptionTypes: 31
+servicePrincipalName: HOST/ad.edt.org
+servicePrincipalName: HOST/ad.edt.org/EDT
+servicePrincipalName: ldap/ad.edt.org/EDT
+servicePrincipalName: GC/ad.edt.org/edt.org
+servicePrincipalName: ldap/ad.edt.org
+servicePrincipalName: HOST/ad.edt.org/edt.org
+servicePrincipalName: ldap/ad.edt.org/edt.org
+servicePrincipalName: HOST/AD
+servicePrincipalName: E3514235-4B06-11D1-AB04-00C04FC2DCD2/62e7d965-8dc6-42fb-
+ 956e-165cb6e91b55/edt.org
+servicePrincipalName: ldap/62e7d965-8dc6-42fb-956e-165cb6e91b55._msdcs.edt.org
+servicePrincipalName: ldap/AD
+servicePrincipalName: RestrictedKrbHost/AD
+servicePrincipalName: RestrictedKrbHost/ad.edt.org
+servicePrincipalName: ldap/ad.edt.org/DomainDnsZones.edt.org
+servicePrincipalName: ldap/ad.edt.org/ForestDnsZones.edt.org
+whenChanged: 20201128201100.0Z
+uSNChanged: 3775
+distinguishedName: CN=AD,OU=Domain Controllers,DC=edt,DC=org
+
+dn: DC=f.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3608
+uSNChanged: 3608
+showInAdvancedViewOnly: TRUE
+name: f.root-servers.net
+objectGUID:: QN13yMg6ekauhBe8YPl5Fg==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAwAUF8Q==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: f.root-servers.net
+distinguishedName: DC=f.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: CN=ipsecPolicy{72385236-70FA-11D1-864C-14A300000000},CN=IP Security,CN=Sys
+ tem,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecPolicy
+cn: ipsecPolicy{72385236-70FA-11D1-864C-14A300000000}
+description: Communicate normally (unsecured). Use the default response rule t
+ o negotiate with servers that request security. Only the requested protocol a
+ nd port traffic with that server is secured.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3487
+showInAdvancedViewOnly: TRUE
+name: ipsecPolicy{72385236-70FA-11D1-864C-14A300000000}
+objectGUID:: 5jzW6M7nKU+0Lmbhhmvb3Q==
+ipsecName: Client (Respond Only)
+ipsecID: {72385236-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: YyEgIkxP0RGGOwCgJI0wIQQAAAAwKgAAAA==
+objectCategory: CN=Ipsec-Policy,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+ipsecISAKMPReference: CN=ipsecISAKMPPolicy{72385237-70FA-11D1-864C-14A30000000
+ 0},CN=IP Security,CN=System,DC=edt,DC=org
+whenChanged: 20201128201056.0Z
+ipsecNFAReference: CN=ipsecNFA{59319C04-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+uSNChanged: 3695
+distinguishedName: CN=ipsecPolicy{72385236-70FA-11D1-864C-14A300000000},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+
+dn: CN=860c36ed-5241-4c62-a18b-cf6ff9994173,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 860c36ed-5241-4c62-a18b-cf6ff9994173
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3404
+uSNChanged: 3404
+showInAdvancedViewOnly: TRUE
+name: 860c36ed-5241-4c62-a18b-cf6ff9994173
+objectGUID:: TVjKtJPqOEWZ6bsyOPqbyg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=860c36ed-5241-4c62-a18b-cf6ff9994173,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=byname,CN=hosts,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byname
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3735
+uSNChanged: 3735
+showInAdvancedViewOnly: TRUE
+name: byname
+objectGUID:: toYbfqgDj0OZbXpprytB1A==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Aliases
+msSFU30KeyAttributes: msSFU30Name
+msSFU30FieldSeparator: "        "
+msSFU30IntraFieldSeparator: "        "
+msSFU30SearchAttributes: msSFU30Aliases
+msSFU30SearchAttributes: msSFU30Name
+msSFU30SearchAttributes: ipHostNumber
+msSFU30ResultAttributes: msSFU30Aliases
+msSFU30ResultAttributes: msSFU30Name
+msSFU30ResultAttributes: ipHostNumber
+msSFU30MapFilter: (objectCategory=Computer)
+distinguishedName: CN=byname,CN=hosts,CN=ypServ30,CN=RpcServices,CN=System,DC=
+ edt,DC=org
+
+dn: CN=edt,CN=services,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3721
+uSNChanged: 3721
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: T1WwhoGmvUyaAL4kjTXTfA==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=services,CN=ypServ30,CN=RpcServices,CN=System,DC=
+ edt,DC=org
+
+dn: CN=bydefaults,CN=bootparams,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC
+ =org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: bydefaults
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3723
+uSNChanged: 3723
+showInAdvancedViewOnly: TRUE
+name: bydefaults
+objectGUID:: ugsa/ej2/Eu07/g2N5j7fg==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Name
+msSFU30FieldSeparator: "        "
+msSFU30IntraFieldSeparator: "        "
+msSFU30SearchAttributes: bootParameter
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: bootParameter
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (&(objectCategory=Device)(bootParameter=*))
+distinguishedName: CN=bydefaults,CN=bootparams,CN=ypServ30,CN=RpcServices,CN=S
+ ystem,DC=edt,DC=org
+
+dn: CN=8437C3D8-7689-4200-BF38-79E4AC33DFA0,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 8437C3D8-7689-4200-BF38-79E4AC33DFA0
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3420
+uSNChanged: 3420
+showInAdvancedViewOnly: TRUE
+name: 8437C3D8-7689-4200-BF38-79E4AC33DFA0
+objectGUID:: FBvFfyaStEOjCkartA9Mzg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=8437C3D8-7689-4200-BF38-79E4AC33DFA0,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=WMIGPO,CN=WMIPolicy,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: WMIGPO
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3511
+uSNChanged: 3511
+showInAdvancedViewOnly: TRUE
+name: WMIGPO
+objectGUID:: +lMgQ30hEUO8cZe4hVpPEA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=WMIGPO,CN=WMIPolicy,CN=System,DC=edt,DC=org
+
+dn: CN=IIS_IUSRS,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: IIS_IUSRS
+description: Built-in group used by Internet Information Services.
+member: CN=S-1-5-17,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3579
+uSNChanged: 3579
+name: IIS_IUSRS
+objectGUID:: YfBvJGezHk2qjPNaTWghBQ==
+objectSid:: AQIAAAAAAAUgAAAAOAIAAA==
+sAMAccountName: IIS_IUSRS
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=IIS_IUSRS,CN=Builtin,DC=edt,DC=org
+
+dn: DC=h.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3607
+uSNChanged: 3607
+showInAdvancedViewOnly: TRUE
+name: h.root-servers.net
+objectGUID:: kYKpzxwcJkSW3iB595Oj8A==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAxmG+NQ==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: h.root-servers.net
+distinguishedName: DC=h.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: CN=Dfs-Configuration,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: dfsConfiguration
+cn: Dfs-Configuration
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3391
+uSNChanged: 3391
+showInAdvancedViewOnly: FALSE
+name: Dfs-Configuration
+objectGUID:: OYRgrxBCNEiJwKkZiwraLw==
+objectCategory: CN=Dfs-Configuration,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Dfs-Configuration,CN=System,DC=edt,DC=org
+
+dn: CN=ipsecPolicy{7238523C-70FA-11D1-864C-14A300000000},CN=IP Security,CN=Sys
+ tem,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecPolicy
+cn: ipsecPolicy{7238523C-70FA-11D1-864C-14A300000000}
+description: For all IP traffic, always require security using Kerberos trust.
+  Do NOT allow unsecured communication with untrusted clients.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3491
+showInAdvancedViewOnly: TRUE
+name: ipsecPolicy{7238523C-70FA-11D1-864C-14A300000000}
+objectGUID:: jTz/kx3nckW6sRx0qRpSDA==
+ipsecName: Secure Server (Require Security)
+ipsecID: {7238523C-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: YyEgIkxP0RGGOwCgJI0wIQQAAAAwKgAAAA==
+ipsecNFAReference: CN=ipsecNFA{594272FD-071D-11D3-AD22-0060B0ECCA17},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+ipsecNFAReference: CN=ipsecNFA{59319BF3-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+ipsecNFAReference: CN=ipsecNFA{7238523E-70FA-11D1-864C-14A300000000},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-Policy,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+ipsecISAKMPReference: CN=ipsecISAKMPPolicy{7238523D-70FA-11D1-864C-14A30000000
+ 0},CN=IP Security,CN=System,DC=edt,DC=org
+whenChanged: 20201128201056.0Z
+uSNChanged: 3699
+distinguishedName: CN=ipsecPolicy{7238523C-70FA-11D1-864C-14A300000000},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+
+dn: CN=Operations,CN=DomainUpdates,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: Operations
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3398
+uSNChanged: 3398
+showInAdvancedViewOnly: TRUE
+name: Operations
+objectGUID:: o7+gBuveXE2ZpnzIfYwrNw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=Operations,CN=DomainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=edt,CN=passwd,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3758
+uSNChanged: 3758
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: TLRBd1SlcUOXar9e42tkuA==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=passwd,CN=ypServ30,CN=RpcServices,CN=System,DC=ed
+ t,DC=org
+
+dn: OU=Domain Controllers,DC=edt,DC=org
+objectClass: top
+objectClass: organizationalUnit
+ou: Domain Controllers
+description: Default container for domain controllers
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3378
+uSNChanged: 3378
+showInAdvancedViewOnly: FALSE
+name: Domain Controllers
+objectGUID:: ceqQ17CL0UGBkpDliMtZaQ==
+systemFlags: -1946157056
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,DC=edt,DC=or
+ g
+isCriticalSystemObject: TRUE
+gPLink: [LDAP://CN={6AC1786C-016F-11D2-945F-00C04FB984F9},CN=Policies,CN=Syste
+ m,DC=edt,DC=org;0]
+distinguishedName: OU=Domain Controllers,DC=edt,DC=org
+
+dn: CN=samba03,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: samba03
+instanceType: 4
+whenCreated: 20201128201100.0Z
+whenChanged: 20201128201100.0Z
+uSNCreated: 3776
+name: samba03
+objectGUID:: nkRFj0NONkeduyIcP+qY9g==
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUUQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: samba03
+sAMAccountType: 805306368
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=edt,DC=org
+userAccountControl: 512
+pwdLastSet: 132510678600000000
+uSNChanged: 3778
+distinguishedName: CN=samba03,CN=Users,DC=edt,DC=org
+
+dn: CN=bygid,CN=group,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: bygid
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3763
+uSNChanged: 3763
+showInAdvancedViewOnly: TRUE
+name: bygid
+objectGUID:: sBReQH9/S0GVMiB+1fwDEw==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: gidNumber
+msSFU30FieldSeparator:: Og==
+msSFU30IntraFieldSeparator: ,
+msSFU30SearchAttributes: memberUid
+msSFU30SearchAttributes: gidNumber
+msSFU30SearchAttributes: unixUserPassword
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: memberUid
+msSFU30ResultAttributes: gidNumber
+msSFU30ResultAttributes: unixUserPassword
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (&(objectCategory=group)(gidNumber=*))
+distinguishedName: CN=bygid,CN=group,CN=ypServ30,CN=RpcServices,CN=System,DC=e
+ dt,DC=org
+
+dn: CN=netgroup,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: netgroup
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3725
+uSNChanged: 3725
+showInAdvancedViewOnly: TRUE
+name: netgroup
+objectGUID:: aERHMVX6Z0Sx3RonHavG3w==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=netgroup,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=
+ org
+
+dn: CN=4dfbb973-8a62-4310-a90c-776e00f83222,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 4dfbb973-8a62-4310-a90c-776e00f83222
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3419
+uSNChanged: 3419
+showInAdvancedViewOnly: TRUE
+name: 4dfbb973-8a62-4310-a90c-776e00f83222
+objectGUID:: rtWxIxdl8067k7Q6jOHiPQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=4dfbb973-8a62-4310-a90c-776e00f83222,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=446f24ea-cfd5-4c52-8346-96e170bcb912,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 446f24ea-cfd5-4c52-8346-96e170bcb912
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3414
+uSNChanged: 3414
+showInAdvancedViewOnly: TRUE
+name: 446f24ea-cfd5-4c52-8346-96e170bcb912
+objectGUID:: 8UMKRlR0jEmu4IDwMD2sIQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=446f24ea-cfd5-4c52-8346-96e170bcb912,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=ipsecFilter{7238523A-70FA-11D1-864C-14A300000000},CN=IP Security,CN=Sys
+ tem,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecFilter
+cn: ipsecFilter{7238523A-70FA-11D1-864C-14A300000000}
+description: Matches all IP packets from this computer to any other computer, 
+ except broadcast, multicast, Kerberos, RSVP and ISAKMP (IKE).
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3483
+showInAdvancedViewOnly: TRUE
+name: ipsecFilter{7238523A-70FA-11D1-864C-14A300000000}
+objectGUID:: okqL+2wOS0SJeIaQE6OnBg==
+ipsecName: All IP Traffic
+ipsecID: {7238523A-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: tSDcgMgu0RGongCgJI0wIUoAAAABAAAAAgAAAAAAAgAAAAAAAgAAAAAA3ZsxWeNe0h
+ Gs6ABgsOzKFwEAAAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+ipsecOwnersReference: CN=ipsecNFA{72385232-70FA-11D1-864C-14A300000000},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+ipsecOwnersReference: CN=ipsecNFA{7238523E-70FA-11D1-864C-14A300000000},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-Filter,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+whenChanged: 20201128201056.0Z
+uSNChanged: 3701
+distinguishedName: CN=ipsecFilter{7238523A-70FA-11D1-864C-14A300000000},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+
+dn: CN=Server,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: securityObject
+objectClass: samServer
+cn: Server
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3505
+uSNChanged: 3505
+showInAdvancedViewOnly: TRUE
+name: Server
+objectGUID:: ZpXtcvo3/kaGg2D1Vf/OIQ==
+revision: 65543
+systemFlags: -1946157056
+objectCategory: CN=Sam-Server,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Server,CN=System,DC=edt,DC=org
+
+dn: CN=byname,CN=passwd,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byname
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3757
+uSNChanged: 3757
+showInAdvancedViewOnly: TRUE
+name: byname
+objectGUID:: 1TwxDZBaQE2yhDzwQzaqUw==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Name
+msSFU30FieldSeparator:: Og==
+msSFU30SearchAttributes: loginShell
+msSFU30SearchAttributes: unixHomeDirectory
+msSFU30SearchAttributes: gecos
+msSFU30SearchAttributes: gidNumber
+msSFU30SearchAttributes: uidNumber
+msSFU30SearchAttributes: unixUserPassword
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: loginShell
+msSFU30ResultAttributes: unixHomeDirectory
+msSFU30ResultAttributes: gecos
+msSFU30ResultAttributes: gidNumber
+msSFU30ResultAttributes: uidNumber
+msSFU30ResultAttributes: unixUserPassword
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (uidNumber=*)
+distinguishedName: CN=byname,CN=passwd,CN=ypServ30,CN=RpcServices,CN=System,DC
+ =edt,DC=org
+
+dn: CN=DnsUpdateProxy,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: DnsUpdateProxy
+description: DNS clients who are permitted to perform dynamic updates on behal
+ f of some other clients (such as DHCP servers).
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3603
+uSNChanged: 3603
+name: DnsUpdateProxy
+objectGUID:: Hal0cdYA20uHo8HEYyKnAg==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUTgQAAA==
+sAMAccountName: DnsUpdateProxy
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=DnsUpdateProxy,CN=Users,DC=edt,DC=org
+
+dn: CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msDFSR-ReplicationGroup
+cn: Domain System Volume
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3393
+uSNChanged: 3393
+showInAdvancedViewOnly: TRUE
+name: Domain System Volume
+objectGUID:: dsqltknJjEykEiiMNuuQyg==
+objectCategory: CN=ms-DFSR-ReplicationGroup,CN=Schema,CN=Configuration,DC=edt,
+ DC=org
+msDFSR-ReplicationGroupType: 1
+distinguishedName: CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC
+ =edt,DC=org
+
+dn: CN=a1789bfb-e0a2-4739-8cc0-e77d892d080a,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: a1789bfb-e0a2-4739-8cc0-e77d892d080a
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3462
+uSNChanged: 3462
+showInAdvancedViewOnly: TRUE
+name: a1789bfb-e0a2-4739-8cc0-e77d892d080a
+objectGUID:: 1L3SYueX30GVAqj4sV7IIw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=a1789bfb-e0a2-4739-8cc0-e77d892d080a,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=AdminSDHolder,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: AdminSDHolder
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3386
+uSNChanged: 3386
+showInAdvancedViewOnly: TRUE
+name: AdminSDHolder
+objectGUID:: AV0kcDn6aUC+9sS/eZBjVw==
+systemFlags: -1946157056
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=AdminSDHolder,CN=System,DC=edt,DC=org
+
+dn: CN=S-1-5-9,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+objectClass: top
+objectClass: foreignSecurityPrincipal
+cn: S-1-5-9
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3559
+uSNChanged: 3559
+showInAdvancedViewOnly: TRUE
+name: S-1-5-9
+objectGUID:: /reDKcQHd0aUafNQjxbIMg==
+objectSid:: AQEAAAAAAAUJAAAA
+objectCategory: CN=Foreign-Security-Principal,CN=Schema,CN=Configuration,DC=ed
+ t,DC=org
+memberOf: CN=Windows Authorization Access Group,CN=Builtin,DC=edt,DC=org
+distinguishedName: CN=S-1-5-9,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+
+dn: CN=netmasks,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: netmasks
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3730
+uSNChanged: 3730
+showInAdvancedViewOnly: TRUE
+name: netmasks
+objectGUID:: Lm6uRAmf1EGRU/isKQXhAg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=netmasks,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=
+ org
+
+dn: CN=8ddf6913-1c7b-4c59-a5af-b9ca3b3d2c4c,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 8ddf6913-1c7b-4c59-a5af-b9ca3b3d2c4c
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3451
+uSNChanged: 3451
+showInAdvancedViewOnly: TRUE
+name: 8ddf6913-1c7b-4c59-a5af-b9ca3b3d2c4c
+objectGUID:: q5t4H3ouDEGHsKtEcMEKhQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=8ddf6913-1c7b-4c59-a5af-b9ca3b3d2c4c,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=Event Log Readers,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Event Log Readers
+description: Members of this group can read event logs from local machine
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3581
+uSNChanged: 3581
+name: Event Log Readers
+objectGUID:: hglZupNK9E2+WtliYe5fuA==
+objectSid:: AQIAAAAAAAUgAAAAPQIAAA==
+sAMAccountName: Event Log Readers
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Event Log Readers,CN=Builtin,DC=edt,DC=org
+
+dn: CN=7ffef925-405b-440a-8d58-35e8cd6e98c3,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 7ffef925-405b-440a-8d58-35e8cd6e98c3
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3418
+uSNChanged: 3418
+showInAdvancedViewOnly: TRUE
+name: 7ffef925-405b-440a-8d58-35e8cd6e98c3
+objectGUID:: 9krvYk1JUkmCTwm/XmIFyg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=7ffef925-405b-440a-8d58-35e8cd6e98c3,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=networks,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: networks
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3741
+uSNChanged: 3741
+showInAdvancedViewOnly: TRUE
+name: networks
+objectGUID:: rL9uHRwjzEa7rS4aKvDBEw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=networks,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=
+ org
+
+dn: CN=7cfb016c-4f87-4406-8166-bd9df943947f,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 7cfb016c-4f87-4406-8166-bd9df943947f
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3421
+uSNChanged: 3421
+showInAdvancedViewOnly: TRUE
+name: 7cfb016c-4f87-4406-8166-bd9df943947f
+objectGUID:: D0oyKDgSHkKJ6NnL/AmzHw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=7cfb016c-4f87-4406-8166-bd9df943947f,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=edt,CN=protocols,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3748
+uSNChanged: 3748
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: dBj7G0tJ3kCLqLdAFrv1NA==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=protocols,CN=ypServ30,CN=RpcServices,CN=System,DC
+ =edt,DC=org
+
+dn: CN=Domain Guests,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Domain Guests
+description: All domain guests
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3542
+uSNChanged: 3542
+name: Domain Guests
+objectGUID:: XhInYwfbXUCXwkKz1KBDxA==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUAgIAAA==
+sAMAccountName: Domain Guests
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+memberOf: CN=Guests,CN=Builtin,DC=edt,DC=org
+distinguishedName: CN=Domain Guests,CN=Users,DC=edt,DC=org
+
+dn: CN=f3dd09dd-25e8-4f9c-85df-12d6d2f2f2f5,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: f3dd09dd-25e8-4f9c-85df-12d6d2f2f2f5
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3401
+uSNChanged: 3401
+showInAdvancedViewOnly: TRUE
+name: f3dd09dd-25e8-4f9c-85df-12d6d2f2f2f5
+objectGUID:: t1+eLJYPPky+y8xsLlJpqw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=f3dd09dd-25e8-4f9c-85df-12d6d2f2f2f5,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=6bcd5687-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd5687-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3440
+uSNChanged: 3440
+showInAdvancedViewOnly: TRUE
+name: 6bcd5687-8314-11d6-977b-00c04f613221
+objectGUID:: ZmmrUA7GvkCi6rHWgdrf0g==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd5687-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: System
+description: Builtin system settings
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3385
+uSNChanged: 3385
+showInAdvancedViewOnly: TRUE
+name: System
+objectGUID:: NjLVaB90F0SNK7yXusl8vA==
+systemFlags: -1946157056
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=System,DC=edt,DC=org
+
+dn: CN=byname,CN=netid,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byname
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3753
+uSNChanged: 3753
+showInAdvancedViewOnly: TRUE
+name: byname
+objectGUID:: LtV+qednR0Ww2m6m3bAYAA==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Name
+msSFU30FieldSeparator: "        "
+msSFU30SearchAttributes: msSFU30KeyValues
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: msSFU30KeyValues
+msSFU30MapFilter: (objectCategory=msSFU30NetId)
+distinguishedName: CN=byname,CN=netid,CN=ypServ30,CN=RpcServices,CN=System,DC=
+ edt,DC=org
+
+dn: CN=edt,CN=netgroup,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3729
+uSNChanged: 3729
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: AAudTEFOfkiYE7DZdpNqiw==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=netgroup,CN=ypServ30,CN=RpcServices,CN=System,DC=
+ edt,DC=org
+
+dn: CN=Program Data,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: Program Data
+description: Default location for storage of application data.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3383
+uSNChanged: 3383
+showInAdvancedViewOnly: TRUE
+name: Program Data
+objectGUID:: BpU/CWo6nkeKpEbZv5IhDw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=Program Data,DC=edt,DC=org
+
+dn: CN=6bcd568a-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd568a-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3443
+uSNChanged: 3443
+showInAdvancedViewOnly: TRUE
+name: 6bcd568a-8314-11d6-977b-00c04f613221
+objectGUID:: /PQuHgy4KEql7dAveyGHPQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd568a-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=6bcd5683-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd5683-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3436
+uSNChanged: 3436
+showInAdvancedViewOnly: TRUE
+name: 6bcd5683-8314-11d6-977b-00c04f613221
+objectGUID:: dyff9lUInEOKLKNpDmAqHg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd5683-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN={6AC1786C-016F-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=edt,DC=
+ org
+objectClass: top
+objectClass: container
+objectClass: groupPolicyContainer
+cn: {6AC1786C-016F-11D2-945F-00C04FB984F9}
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+displayName: Default Domain Controllers Policy
+uSNCreated: 3588
+uSNChanged: 3588
+showInAdvancedViewOnly: TRUE
+name: {6AC1786C-016F-11D2-945F-00C04FB984F9}
+objectGUID:: Hart58WuCU+RTeZfM88RAg==
+flags: 0
+versionNumber: 0
+systemFlags: -1946157056
+objectCategory: CN=Group-Policy-Container,CN=Schema,CN=Configuration,DC=edt,DC
+ =org
+isCriticalSystemObject: TRUE
+gPCFunctionalityVersion: 2
+gPCFileSysPath: \\edt.org\sysvol\edt.org\Policies\{6AC1786C-016F-11D2-945F-00C
+ 04FB984F9}
+gPCMachineExtensionNames: [{827D319E-6EAC-11D2-A4EA-00C04F79F83A}{803E14A0-B4F
+ B-11D0-A0D0-00A0C90F574B}]
+distinguishedName: CN={6AC1786C-016F-11D2-945F-00C04FB984F9},CN=Policies,CN=Sy
+ stem,DC=edt,DC=org
+
+dn: DC=@,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3606
+uSNChanged: 3606
+showInAdvancedViewOnly: TRUE
+name: @
+objectGUID:: S7uX1OZ+zUy88WoyoNLn1g==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBaAxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBZgxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBYgxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBbQxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBbAxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBaQxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBZQxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBZAxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBawxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBYQxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBZwxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBYwxyb290LXNlcnZlcnMDbmV0AA==
+dnsRecord:: FgACAAUIAAAAAAAAAAAAAAAAAAAAAAAAFAMBagxyb290LXNlcnZlcnMDbmV0AA==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: @
+distinguishedName: DC=@,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,DC=
+ org
+
+dn: CN=6bcd5688-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd5688-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3441
+uSNChanged: 3441
+showInAdvancedViewOnly: TRUE
+name: 6bcd5688-8314-11d6-977b-00c04f613221
+objectGUID:: fKsE/1K6pEO7DqzNAbuNww==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd5688-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=edt,CN=group,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3765
+uSNChanged: 3765
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: mRCX2cY9lE2BmV3V+/gz0g==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=group,CN=ypServ30,CN=RpcServices,CN=System,DC=edt
+ ,DC=org
+
+dn: CN=netid,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: netid
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3752
+uSNChanged: 3752
+showInAdvancedViewOnly: TRUE
+name: netid
+objectGUID:: sq13K5PXT0OrG8qFJuacXQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=netid,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+
+dn: CN=Remote Desktop Users,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Remote Desktop Users
+description: Members in this group are granted the right to logon remotely
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3571
+uSNChanged: 3571
+name: Remote Desktop Users
+objectGUID:: FpnRnhfGW0q5fG5s8FFdgQ==
+objectSid:: AQIAAAAAAAUgAAAAKwIAAA==
+sAMAccountName: Remote Desktop Users
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Remote Desktop Users,CN=Builtin,DC=edt,DC=org
+
+dn: CN=6bcd5678-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd5678-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3425
+uSNChanged: 3425
+showInAdvancedViewOnly: TRUE
+name: 6bcd5678-8314-11d6-977b-00c04f613221
+objectGUID:: QRXemg0q/0untEBoLF8v5g==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd5678-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=NTDS Quotas,DC=edt,DC=org
+objectClass: top
+objectClass: msDS-QuotaContainer
+cn: NTDS Quotas
+description: Quota specifications container
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3382
+uSNChanged: 3382
+showInAdvancedViewOnly: TRUE
+name: NTDS Quotas
+objectGUID:: ekl5RlFlSkCMXNi+GMczPA==
+systemFlags: -2147483648
+objectCategory: CN=ms-DS-Quota-Container,CN=Schema,CN=Configuration,DC=edt,DC=
+ org
+isCriticalSystemObject: TRUE
+msDS-TombstoneQuotaFactor: 100
+distinguishedName: CN=NTDS Quotas,DC=edt,DC=org
+
+dn: CN=3c784009-1f57-4e2a-9b04-6915c9e71961,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 3c784009-1f57-4e2a-9b04-6915c9e71961
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3424
+uSNChanged: 3424
+showInAdvancedViewOnly: TRUE
+name: 3c784009-1f57-4e2a-9b04-6915c9e71961
+objectGUID:: F3Hg8ghpN0WlE8Eqvi5jiw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=3c784009-1f57-4e2a-9b04-6915c9e71961,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=byname,CN=services,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byname
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3720
+uSNChanged: 3720
+showInAdvancedViewOnly: TRUE
+name: byname
+objectGUID:: IBbQvYVMz0qPimRSmNabIQ==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: CN
+msSFU30FieldSeparator: "        "
+msSFU30SearchAttributes: msSFU30Aliases
+msSFU30SearchAttributes: CN
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: msSFU30Aliases
+msSFU30ResultAttributes: CN
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (objectCategory=ipService)
+distinguishedName: CN=byname,CN=services,CN=ypServ30,CN=RpcServices,CN=System,
+ DC=edt,DC=org
+
+dn: CN=6bcd568b-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd568b-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3444
+uSNChanged: 3444
+showInAdvancedViewOnly: TRUE
+name: 6bcd568b-8314-11d6-977b-00c04f613221
+objectGUID:: 0TZO1s8gL02bjYLokXo8Ug==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd568b-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=6bcd567b-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd567b-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3428
+uSNChanged: 3428
+showInAdvancedViewOnly: TRUE
+name: 6bcd567b-8314-11d6-977b-00c04f613221
+objectGUID:: nQ9d5NbR+Eq+MZA/bz/53g==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd567b-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=byaddr,CN=networks,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byaddr
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3742
+uSNChanged: 3742
+showInAdvancedViewOnly: TRUE
+name: byaddr
+objectGUID:: H+G2M4H70kidGrQpm80WYA==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: ipNetworkNumber
+msSFU30FieldSeparator: "        "
+msSFU30IntraFieldSeparator: "        "
+msSFU30SearchAttributes: msSFU30Aliases
+msSFU30SearchAttributes: ipNetworkNumber
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: msSFU30Aliases
+msSFU30ResultAttributes: ipNetworkNumber
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (objectCategory=ipNetwork)
+distinguishedName: CN=byaddr,CN=networks,CN=ypServ30,CN=RpcServices,CN=System,
+ DC=edt,DC=org
+
+dn: CN=Users,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Users
+description: Users are prevented from making accidental or intentional system-
+ wide changes and can run most applications
+member: CN=S-1-5-4,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+member: CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+member: CN=Domain Users,CN=Users,DC=edt,DC=org
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3563
+uSNChanged: 3563
+name: Users
+objectGUID:: NKQcIIwgqU6DSPId7ot6Ag==
+objectSid:: AQIAAAAAAAUgAAAAIQIAAA==
+sAMAccountName: Users
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Users,CN=Builtin,DC=edt,DC=org
+
+dn: CN=6bcd5679-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd5679-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3426
+uSNChanged: 3426
+showInAdvancedViewOnly: TRUE
+name: 6bcd5679-8314-11d6-977b-00c04f613221
+objectGUID:: 3sD2+hMcukqrFh9O6VA6Vw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd5679-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=ebad865a-d649-416f-9922-456b53bbb5b8,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: ebad865a-d649-416f-9922-456b53bbb5b8
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3469
+uSNChanged: 3469
+showInAdvancedViewOnly: TRUE
+name: ebad865a-d649-416f-9922-456b53bbb5b8
+objectGUID:: vDDAq78GLUSbgnzCnEDw7w==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=ebad865a-d649-416f-9922-456b53bbb5b8,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=edt,CN=shadow,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3761
+uSNChanged: 3761
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: cGfiJIXwz0S3IWGVWYD7gg==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=shadow,CN=ypServ30,CN=RpcServices,CN=System,DC=ed
+ t,DC=org
+
+dn: CN=ipsecFilter{72385235-70FA-11D1-864C-14A300000000},CN=IP Security,CN=Sys
+ tem,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecFilter
+cn: ipsecFilter{72385235-70FA-11D1-864C-14A300000000}
+description: Matches all ICMP packets between this computer and any other comp
+ uter.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3486
+showInAdvancedViewOnly: TRUE
+name: ipsecFilter{72385235-70FA-11D1-864C-14A300000000}
+objectGUID:: Wu/pfsOpJk6RdYU4GBBcmQ==
+ipsecName: All ICMP Traffic
+ipsecID: {72385235-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: tSDcgMgu0RGongCgJI0wIVIAAAABAAAAAgAAAAAAAgAAAAAACgAAAEkAQwBNAFAAAA
+ Bj0hlRHQfTEa0iAGCw7MoXAQAAAAAAAAD/////AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA==
+ipsecOwnersReference: CN=ipsecNFA{594272E2-071D-11D3-AD22-0060B0ECCA17},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+ipsecOwnersReference: CN=ipsecNFA{594272FD-071D-11D3-AD22-0060B0ECCA17},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-Filter,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+whenChanged: 20201128201056.0Z
+uSNChanged: 3703
+distinguishedName: CN=ipsecFilter{72385235-70FA-11D1-864C-14A300000000},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+
+dn: CN=Microsoft,CN=Program Data,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: Microsoft
+description: Default location for storage of Microsoft application data.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3384
+uSNChanged: 3384
+showInAdvancedViewOnly: TRUE
+name: Microsoft
+objectGUID:: TTbBhP3ZlUOcC8LhbeyYzA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=Microsoft,CN=Program Data,DC=edt,DC=org
+
+dn: CN=ObjectMoveTable,CN=FileLinks,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: fileLinkTracking
+objectClass: linkTrackObjectMoveTable
+cn: ObjectMoveTable
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3474
+uSNChanged: 3474
+showInAdvancedViewOnly: TRUE
+name: ObjectMoveTable
+objectGUID:: Iljnx5TOJEO+i/bzoYbCEA==
+systemFlags: -1946157056
+objectCategory: CN=Link-Track-Object-Move-Table,CN=Schema,CN=Configuration,DC=
+ edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=ObjectMoveTable,CN=FileLinks,CN=System,DC=edt,DC=org
+
+dn: CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=edt,DC=
+ org
+objectClass: top
+objectClass: container
+objectClass: groupPolicyContainer
+cn: {31B2F340-016D-11D2-945F-00C04FB984F9}
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+displayName: Default Domain Policy
+uSNCreated: 3585
+uSNChanged: 3585
+showInAdvancedViewOnly: TRUE
+name: {31B2F340-016D-11D2-945F-00C04FB984F9}
+objectGUID:: t/kF1EA0N0mQrN9lVXO87g==
+flags: 0
+versionNumber: 0
+systemFlags: -1946157056
+objectCategory: CN=Group-Policy-Container,CN=Schema,CN=Configuration,DC=edt,DC
+ =org
+isCriticalSystemObject: TRUE
+gPCFunctionalityVersion: 2
+gPCFileSysPath: \\edt.org\sysvol\edt.org\Policies\{31B2F340-016D-11D2-945F-00C
+ 04FB984F9}
+gPCMachineExtensionNames: [{35378EAC-683F-11D2-A89A-00C04FBBCFA2}{53D6AB1B-248
+ 8-11D1-A28C-00C04FB94F17}][{827D319E-6EAC-11D2-A4EA-00C04F79F83A}{803E14A0-B4
+ FB-11D0-A0D0-00A0C90F574B}][{B1BE8D72-6EAC-11D2-A4EA-00C04F79F83A}{53D6AB1B-2
+ 488-11D1-A28C-00C04FB94F17}]
+gPCUserExtensionNames: [{3060E8D0-7020-11D2-842D-00C04FA372D4}{3060E8CE-7020-1
+ 1D2-842D-00C04FA372D4}][{35378EAC-683F-11D2-A89A-00C04FBBCFA2}{0F6B957E-509E-
+ 11D1-A7CC-0000F87571E3}]
+distinguishedName: CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=Sy
+ stem,DC=edt,DC=org
+
+dn: CN=3e4f4182-ac5d-4378-b760-0eab2de593e2,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 3e4f4182-ac5d-4378-b760-0eab2de593e2
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3448
+uSNChanged: 3448
+showInAdvancedViewOnly: TRUE
+name: 3e4f4182-ac5d-4378-b760-0eab2de593e2
+objectGUID:: w/CrRk2Fx0W9Jx9ZgLTr2Q==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=3e4f4182-ac5d-4378-b760-0eab2de593e2,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: Users
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3372
+name: Users
+objectGUID:: hwQER+MeOkC4MCodBjH7gg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+description: Default container for upgraded user accounts
+systemFlags: -1946157056
+isCriticalSystemObject: TRUE
+showInAdvancedViewOnly: FALSE
+uSNChanged: 3373
+distinguishedName: CN=Users,DC=edt,DC=org
+
+dn: CN=Performance Log Users,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Performance Log Users
+description: Members of this group may schedule logging of performance counter
+ s, enable trace providers, and collect event traces both locally and via remo
+ te access to this computer
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3575
+uSNChanged: 3575
+name: Performance Log Users
+objectGUID:: KluRHvaAQEC7DdrWodk0bQ==
+objectSid:: AQIAAAAAAAUgAAAALwIAAA==
+sAMAccountName: Performance Log Users
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Performance Log Users,CN=Builtin,DC=edt,DC=org
+
+dn: CN=13d15cf0-e6c8-11d6-9793-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 13d15cf0-e6c8-11d6-9793-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3450
+uSNChanged: 3450
+showInAdvancedViewOnly: TRUE
+name: 13d15cf0-e6c8-11d6-9793-00c04f613221
+objectGUID:: KAiFjoMwzky0ZH5q1cyyMw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=13d15cf0-e6c8-11d6-9793-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=c4f17608-e611-11d6-9793-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: c4f17608-e611-11d6-9793-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3449
+uSNChanged: 3449
+showInAdvancedViewOnly: TRUE
+name: c4f17608-e611-11d6-9793-00c04f613221
+objectGUID:: v8mGVnHkAEeDxTAoJU9FgA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=c4f17608-e611-11d6-9793-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=ipsecNegotiationPolicy{7238523B-70FA-11D1-864C-14A300000000},CN=IP Secu
+ rity,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNegotiationPolicy
+cn: ipsecNegotiationPolicy{7238523B-70FA-11D1-864C-14A300000000}
+description: Permit unsecured IP packets to pass through.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3485
+showInAdvancedViewOnly: TRUE
+name: ipsecNegotiationPolicy{7238523B-70FA-11D1-864C-14A300000000}
+objectGUID:: IdQG/vNBQkyXsj3t/BI6Mw==
+ipsecName: Permit
+ipsecID: {7238523B-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: uSDcgMgu0RGongCgJI0wIQQAAAAAAAAAAA==
+ipsecOwnersReference: CN=ipsecNFA{594272E2-071D-11D3-AD22-0060B0ECCA17},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+ipsecOwnersReference: CN=ipsecNFA{594272FD-071D-11D3-AD22-0060B0ECCA17},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-Negotiation-Policy,CN=Schema,CN=Configuration,DC=edt,
+ DC=org
+isCriticalSystemObject: TRUE
+iPSECNegotiationPolicyType: {62F49E10-6C37-11D1-864C-14A300000000}
+iPSECNegotiationPolicyAction: {8A171DD2-77E3-11D1-8659-A04F00000000}
+whenChanged: 20201128201056.0Z
+uSNChanged: 3705
+distinguishedName: CN=ipsecNegotiationPolicy{7238523B-70FA-11D1-864C-14A300000
+ 000},CN=IP Security,CN=System,DC=edt,DC=org
+
+dn: CN=bynumber,CN=rpc,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: bynumber
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3750
+uSNChanged: 3750
+showInAdvancedViewOnly: TRUE
+name: bynumber
+objectGUID:: MjZdt64QR0WhMiJtDQ8hlw==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: oncRpcNumber
+msSFU30FieldSeparator: "        "
+msSFU30SearchAttributes: msSFU30Aliases
+msSFU30SearchAttributes: oncRpcNumber
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: msSFU30Aliases
+msSFU30ResultAttributes: oncRpcNumber
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (objectCategory=oncRpc)
+distinguishedName: CN=bynumber,CN=rpc,CN=ypServ30,CN=RpcServices,CN=System,DC=
+ edt,DC=org
+
+dn: CN=byaddr,CN=ethers,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byaddr
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3738
+uSNChanged: 3738
+showInAdvancedViewOnly: TRUE
+name: byaddr
+objectGUID:: LIgCTKNVP0mUMXO4e2FnwQ==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: macAddress
+msSFU30FieldSeparator: "        "
+msSFU30SearchAttributes: msSFU30Name
+msSFU30SearchAttributes: macAddress
+msSFU30ResultAttributes: msSFU30Name
+msSFU30ResultAttributes: macAddress
+msSFU30MapFilter: (&(objectCategory=Device)(macAddress=*))
+distinguishedName: CN=byaddr,CN=ethers,CN=ypServ30,CN=RpcServices,CN=System,DC
+ =edt,DC=org
+
+dn: CN=RAS and IAS Servers,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: RAS and IAS Servers
+description: Servers in this group can access remote access properties of user
+ s
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3555
+uSNChanged: 3555
+name: RAS and IAS Servers
+objectGUID:: kefENsjvNECZQ4ENwTkE0Q==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUKQIAAA==
+sAMAccountName: RAS and IAS Servers
+sAMAccountType: 536870912
+groupType: -2147483644
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=RAS and IAS Servers,CN=Users,DC=edt,DC=org
+
+dn: CN=Guests,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Guests
+description: Guests have the same access as members of the Users group by defa
+ ult, except for the Guest account which is further restricted
+member: CN=Domain Guests,CN=Users,DC=edt,DC=org
+member: CN=Guest,CN=Users,DC=edt,DC=org
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3564
+uSNChanged: 3564
+name: Guests
+objectGUID:: 4pNnUWm1FUuCN8jiFJmwlA==
+objectSid:: AQIAAAAAAAUgAAAAIgIAAA==
+sAMAccountName: Guests
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Guests,CN=Builtin,DC=edt,DC=org
+
+dn: CN=f58300d1-b71a-4DB6-88a1-a8b9538beaca,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: f58300d1-b71a-4DB6-88a1-a8b9538beaca
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3470
+uSNChanged: 3470
+showInAdvancedViewOnly: TRUE
+name: f58300d1-b71a-4DB6-88a1-a8b9538beaca
+objectGUID:: ELEf4EW+iUqUtNjVOhny4A==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=f58300d1-b71a-4DB6-88a1-a8b9538beaca,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=ComPartitionSets,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: ComPartitionSets
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3388
+uSNChanged: 3388
+showInAdvancedViewOnly: TRUE
+name: ComPartitionSets
+objectGUID:: 1XYof0TT3kaPx9Bbm8iKYg==
+systemFlags: -1946157056
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=ComPartitionSets,CN=System,DC=edt,DC=org
+
+dn: CN=Replicator,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Replicator
+description: Supports file replication in a domain
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3569
+uSNChanged: 3569
+name: Replicator
+objectGUID:: dM6ia9Ng3U+guE93GOnDog==
+objectSid:: AQIAAAAAAAUgAAAAKAIAAA==
+adminCount: 1
+sAMAccountName: Replicator
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Replicator,CN=Builtin,DC=edt,DC=org
+
+dn: CN=Domain Computers,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Domain Computers
+description: All workstations and servers joined to the domain
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3543
+uSNChanged: 3543
+name: Domain Computers
+objectGUID:: Jv40d7uGZEOZWe3ipMrZaA==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUAwIAAA==
+sAMAccountName: Domain Computers
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Domain Computers,CN=Users,DC=edt,DC=org
+
+dn: CN=ipsecNFA{59319BF3-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Security,CN=System
+ ,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNFA
+cn: ipsecNFA{59319BF3-5EE3-11D2-ACE8-0060B0ECCA17}
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3494
+showInAdvancedViewOnly: TRUE
+name: ipsecNFA{59319BF3-5EE3-11D2-ACE8-0060B0ECCA17}
+objectGUID:: wWQl1ZotnE2Uwi6G73Py4Q==
+ipsecID: {59319BF3-5EE3-11D2-ACE8-0060B0ECCA17}
+ipsecDataType: 598
+ipsecData:: AKy7EY1J0RGGOQCgJI0wISoAAAABAAAABQAAAAIAAAAAAP3///8CAAAAAAAAAAAAAA
+ AAAAEAAAACAAAAAAAA
+ipsecOwnersReference: CN=ipsecPolicy{7238523C-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-NFA,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+ipsecNegotiationPolicyReference: CN=ipsecNegotiationPolicy{59319BF0-5EE3-11D2-
+ ACE8-0060B0ECCA17},CN=IP Security,CN=System,DC=edt,DC=org
+whenChanged: 20201128201056.0Z
+uSNChanged: 3706
+distinguishedName: CN=ipsecNFA{59319BF3-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+
+dn: CN=Machine,CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System
+ ,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: Machine
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3587
+uSNChanged: 3587
+showInAdvancedViewOnly: TRUE
+name: Machine
+objectGUID:: k/4DCtipRE2fZGd1w38HgA==
+systemFlags: -1946157056
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Machine,CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Pol
+ icies,CN=System,DC=edt,DC=org
+
+dn: CN=FileLinks,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: fileLinkTracking
+cn: FileLinks
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3473
+uSNChanged: 3473
+showInAdvancedViewOnly: TRUE
+name: FileLinks
+objectGUID:: aBXSAzIH9UOqIkyg7DOv9g==
+systemFlags: -1946157056
+objectCategory: CN=File-Link-Tracking,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=FileLinks,CN=System,DC=edt,DC=org
+
+dn: CN=VolumeTable,CN=FileLinks,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: fileLinkTracking
+objectClass: linkTrackVolumeTable
+cn: VolumeTable
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3475
+uSNChanged: 3475
+showInAdvancedViewOnly: TRUE
+name: VolumeTable
+objectGUID:: IhhVS6SxKUmumRwePRhdzA==
+systemFlags: -1946157056
+objectCategory: CN=Link-Track-Volume-Table,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=VolumeTable,CN=FileLinks,CN=System,DC=edt,DC=org
+
+dn: CN=Domain Users,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Domain Users
+description: All domain users
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3541
+uSNChanged: 3541
+name: Domain Users
+objectGUID:: +2cJ2ww+RUSSVQel2XAbMg==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUAQIAAA==
+sAMAccountName: Domain Users
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+memberOf: CN=Users,CN=Builtin,DC=edt,DC=org
+distinguishedName: CN=Domain Users,CN=Users,DC=edt,DC=org
+
+dn: CN=Administrator,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Administrator
+description: Built-in account for administering the computer/domain
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3545
+name: Administrator
+objectGUID:: u4Te0QHEcUOLG3sGCavq5Q==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+pwdLastSet: 132510678546765410
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyU9AEAAA==
+adminCount: 1
+accountExpires: 9223372036854775807
+sAMAccountName: Administrator
+sAMAccountType: 805306368
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+memberOf: CN=Domain Admins,CN=Users,DC=edt,DC=org
+memberOf: CN=Schema Admins,CN=Users,DC=edt,DC=org
+memberOf: CN=Enterprise Admins,CN=Users,DC=edt,DC=org
+memberOf: CN=Group Policy Creator Owners,CN=Users,DC=edt,DC=org
+memberOf: CN=Administrators,CN=Builtin,DC=edt,DC=org
+lastLogonTimestamp: 132510689015946360
+whenChanged: 20201128202821.0Z
+uSNChanged: 3780
+lastLogon: 132510706037159850
+logonCount: 6
+distinguishedName: CN=Administrator,CN=Users,DC=edt,DC=org
+
+dn: CN=ipsecISAKMPPolicy{7238523D-70FA-11D1-864C-14A300000000},CN=IP Security,
+ CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecISAKMPPolicy
+cn: ipsecISAKMPPolicy{7238523D-70FA-11D1-864C-14A300000000}
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3492
+uSNChanged: 3492
+showInAdvancedViewOnly: TRUE
+name: ipsecISAKMPPolicy{7238523D-70FA-11D1-864C-14A300000000}
+objectGUID:: c881bQFYDU+p8Xfby+hPSA==
+ipsecID: {7238523D-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: uCDcgMgu0RGongCgJI0wIUABAAD5ckJZHQfTEa0iAGCw7MoXAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAADNzQMAAABAAAAACAAAAAIAAABAAAA
+ AAAAAAAAAAAAAAAAAAAAAAADNzc0CAAAAAAAAAAAAAACAcAAAzc3NzQAAzc0DAAAAQAAAAAgAAAAB
+ AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAzc3NAgAAAAAAAAAAAAAAgHAAAM3Nzc0AAM3NAQAAAEAAA
+ AAIAAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAM3NzQEAAAAAAAAAAAAAAIBwAADNzc3NAADNzQ
+ EAAABAAAAACAAAAAEAAABAAAAAAAAAAAAAAAAAAAAAAAAAAADNzc0BAAAAAAAAAAAAAACAcAAAzc3
+ NzQA=
+ipsecOwnersReference: CN=ipsecPolicy{7238523C-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-ISAKMP-Policy,CN=Schema,CN=Configuration,DC=edt,DC=or
+ g
+isCriticalSystemObject: TRUE
+distinguishedName: CN=ipsecISAKMPPolicy{7238523D-70FA-11D1-864C-14A300000000},
+ CN=IP Security,CN=System,DC=edt,DC=org
+
+dn: CN=d85c0bfd-094f-4cad-a2b5-82ac9268475d,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: d85c0bfd-094f-4cad-a2b5-82ac9268475d
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3407
+uSNChanged: 3407
+showInAdvancedViewOnly: TRUE
+name: d85c0bfd-094f-4cad-a2b5-82ac9268475d
+objectGUID:: jKzeo1cU7kaaauRlMmmMIQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=d85c0bfd-094f-4cad-a2b5-82ac9268475d,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+objectClass: rpcContainer
+cn: RpcServices
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3504
+uSNChanged: 3504
+showInAdvancedViewOnly: TRUE
+name: RpcServices
+objectGUID:: x4YeYlC1TEicwShVL+3v4w==
+systemFlags: -1946157056
+objectCategory: CN=Rpc-Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=RpcServices,CN=System,DC=edt,DC=org
+
+dn: CN=edt,CN=hosts,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3736
+uSNChanged: 3736
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: z+9cp2Sk/0qFrydlhaNwdw==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=hosts,CN=ypServ30,CN=RpcServices,CN=System,DC=edt
+ ,DC=org
+
+dn: CN=6ada9ff7-c9df-45c1-908e-9fef2fab008a,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6ada9ff7-c9df-45c1-908e-9fef2fab008a
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3408
+uSNChanged: 3408
+showInAdvancedViewOnly: TRUE
+name: 6ada9ff7-c9df-45c1-908e-9fef2fab008a
+objectGUID:: xgFXbkJY60is1fobgYsVbA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6ada9ff7-c9df-45c1-908e-9fef2fab008a,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=Topology,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=ed
+ t,DC=org
+objectClass: top
+objectClass: msDFSR-Topology
+cn: Topology
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3395
+uSNChanged: 3395
+showInAdvancedViewOnly: TRUE
+name: Topology
+objectGUID:: M5K9KDYgfkOiRipfOlz1mQ==
+objectCategory: CN=ms-DFSR-Topology,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=Topology,CN=Domain System Volume,CN=DFSR-GlobalSettings,
+ CN=System,DC=edt,DC=org
+
+dn: CN=edt,CN=netid,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3754
+uSNChanged: 3754
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: 18YY1IaLTEKmZWkEnG6chg==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=netid,CN=ypServ30,CN=RpcServices,CN=System,DC=edt
+ ,DC=org
+
+dn: CN=Backup Operators,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Backup Operators
+description: Backup Operators can override security restrictions for the sole 
+ purpose of backing up or restoring files
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3568
+uSNChanged: 3568
+name: Backup Operators
+objectGUID:: sdXai7LZykW3NIoTYYywpQ==
+objectSid:: AQIAAAAAAAUgAAAAJwIAAA==
+adminCount: 1
+sAMAccountName: Backup Operators
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Backup Operators,CN=Builtin,DC=edt,DC=org
+
+dn: CN=f607fd87-80cf-45e2-890b-6cf97ec0e284,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: f607fd87-80cf-45e2-890b-6cf97ec0e284
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3411
+uSNChanged: 3411
+showInAdvancedViewOnly: TRUE
+name: f607fd87-80cf-45e2-890b-6cf97ec0e284
+objectGUID:: 9JLDYyr/Xk25QXkinPli3g==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=f607fd87-80cf-45e2-890b-6cf97ec0e284,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=passwd,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: passwd
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3755
+uSNChanged: 3755
+showInAdvancedViewOnly: TRUE
+name: passwd
+objectGUID:: bKQEv8EoHEmciniid7PGjA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=passwd,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=or
+ g
+
+dn: CN=Enterprise Admins,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Enterprise Admins
+description: Designated administrators of the enterprise
+member: CN=Administrator,CN=Users,DC=edt,DC=org
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3552
+uSNChanged: 3552
+name: Enterprise Admins
+objectGUID:: tJJ+YalgxkWerIuC8Mmffw==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUBwIAAA==
+adminCount: 1
+sAMAccountName: Enterprise Admins
+sAMAccountType: 268435456
+groupType: -2147483640
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+memberOf: CN=Denied RODC Password Replication Group,CN=Users,DC=edt,DC=org
+memberOf: CN=Administrators,CN=Builtin,DC=edt,DC=org
+distinguishedName: CN=Enterprise Admins,CN=Users,DC=edt,DC=org
+
+dn: CN=Windows Authorization Access Group,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Windows Authorization Access Group
+description: Members of this group have access to the computed tokenGroupsGlob
+ alAndUniversal attribute on User objects
+member: CN=S-1-5-9,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3576
+uSNChanged: 3576
+name: Windows Authorization Access Group
+objectGUID:: EbSL1idh2kilvZYBXsFmHA==
+objectSid:: AQIAAAAAAAUgAAAAMAIAAA==
+sAMAccountName: Windows Authorization Access Group
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Windows Authorization Access Group,CN=Builtin,DC=edt,DC=
+ org
+
+dn: CN=ipsecNFA{6A1F5C6F-72B7-11D2-ACF0-0060B0ECCA17},CN=IP Security,CN=System
+ ,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNFA
+cn: ipsecNFA{6A1F5C6F-72B7-11D2-ACF0-0060B0ECCA17}
+description: Version Information Object
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3498
+uSNChanged: 3498
+showInAdvancedViewOnly: TRUE
+name: ipsecNFA{6A1F5C6F-72B7-11D2-ACF0-0060B0ECCA17}
+objectGUID:: iXorxx19n06H47SofmB+KA==
+ipsecName: Version Information Object
+ipsecID: {6A1F5C6F-72B7-11D2-ACF0-0060B0ECCA17}
+ipsecDataType: 598
+ipsecData:: b1wfardy0hGs8ABgsOzKF1AAAAAAAAEApmamNhoAAABXAGkAbgBkAG8AdwBzACAAMg
+ AwADAAMAAAABwAAABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByAAAABgAAAA0ACgAAAACsuxGNSdE
+ RhjkAoCSNMCEqAAAAAQAAAAUAAAACAAAAAAD9////AgAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAA==
+objectCategory: CN=Ipsec-NFA,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=ipsecNFA{6A1F5C6F-72B7-11D2-ACF0-0060B0ECCA17},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+
+dn: CN=f7ed4553-d82b-49ef-a839-2f38a36bb069,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: f7ed4553-d82b-49ef-a839-2f38a36bb069
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3422
+uSNChanged: 3422
+showInAdvancedViewOnly: TRUE
+name: f7ed4553-d82b-49ef-a839-2f38a36bb069
+objectGUID:: orEYvZoNPU66u2Qajbp2Ag==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=f7ed4553-d82b-49ef-a839-2f38a36bb069,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=DnsAdmins,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: DnsAdmins
+description: DNS Administrators Group
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3602
+uSNChanged: 3602
+name: DnsAdmins
+objectGUID:: 6Op5W6wHWEG7ReCXktW6DQ==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUTQQAAA==
+sAMAccountName: DnsAdmins
+sAMAccountType: 536870912
+groupType: -2147483644
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=DnsAdmins,CN=Users,DC=edt,DC=org
+
+dn: CN=Cert Publishers,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Cert Publishers
+description: Members of this group are permitted to publish certificates to th
+ e directory
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3550
+uSNChanged: 3550
+name: Cert Publishers
+objectGUID:: VOm7PNdtv0CUpkC9C4GdaA==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUBQIAAA==
+sAMAccountName: Cert Publishers
+sAMAccountType: 536870912
+groupType: -2147483644
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+memberOf: CN=Denied RODC Password Replication Group,CN=Users,DC=edt,DC=org
+distinguishedName: CN=Cert Publishers,CN=Users,DC=edt,DC=org
+
+dn: CN=byaddr,CN=mail,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byaddr
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3716
+uSNChanged: 3716
+showInAdvancedViewOnly: TRUE
+name: byaddr
+objectGUID:: yfvIjYIV9UOj/G/kE2gtZA==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Aliases
+msSFU30FieldSeparator:: Og==
+msSFU30IntraFieldSeparator: ,
+msSFU30SearchAttributes: msSFU30Aliases
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: msSFU30Aliases
+msSFU30MapFilter: (objectCategory=msSFU30MailAliases)
+distinguishedName: CN=byaddr,CN=mail,CN=ypServ30,CN=RpcServices,CN=System,DC=e
+ dt,DC=org
+
+dn: CN=rpc,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: rpc
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3749
+uSNChanged: 3749
+showInAdvancedViewOnly: TRUE
+name: rpc
+objectGUID:: 5Bhma8GKK0Wc/dwr/UIUSQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=rpc,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+
+dn: CN=byuser,CN=netgroup,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byuser
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3727
+uSNChanged: 3727
+showInAdvancedViewOnly: TRUE
+name: byuser
+objectGUID:: neP9DC8AnkGKLjFs7MNV1Q==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30NetgroupUserAtDomain
+msSFU30FieldSeparator: "        "
+msSFU30IntraFieldSeparator: ,
+msSFU30SearchAttributes: msSFU30Name
+msSFU30SearchAttributes: MemberNisNetgroup
+msSFU30SearchAttributes: msSFU30NetgroupUserAtDomain
+msSFU30ResultAttributes: MemberNisNetgroup
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (objectCategory=NisNetgroup)
+distinguishedName: CN=byuser,CN=netgroup,CN=ypServ30,CN=RpcServices,CN=System,
+ DC=edt,DC=org
+
+dn: CN=ipsecNFA{7238523E-70FA-11D1-864C-14A300000000},CN=IP Security,CN=System
+ ,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNFA
+cn: ipsecNFA{7238523E-70FA-11D1-864C-14A300000000}
+description: Accepts unsecured communication, but always requires clients to e
+ stablish trust and security methods.  Will NOT communicate with untrusted cli
+ ents.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3493
+showInAdvancedViewOnly: TRUE
+name: ipsecNFA{7238523E-70FA-11D1-864C-14A300000000}
+objectGUID:: 4kU405m6HEKgc7lvI43sJQ==
+ipsecName: Require Security
+ipsecID: {7238523E-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: AKy7EY1J0RGGOQCgJI0wISoAAAABAAAABQAAAAIAAAAAAP3///8CAAAAAAAAAAAAAA
+ AAAAEAAAACAAAAAAAA
+ipsecOwnersReference: CN=ipsecPolicy{7238523C-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+ipsecFilterReference: CN=ipsecFilter{7238523A-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-NFA,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+ipsecNegotiationPolicyReference: CN=ipsecNegotiationPolicy{7238523F-70FA-11D1-
+ 864C-14A300000000},CN=IP Security,CN=System,DC=edt,DC=org
+whenChanged: 20201128201056.0Z
+uSNChanged: 3707
+distinguishedName: CN=ipsecNFA{7238523E-70FA-11D1-864C-14A300000000},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+
+dn: CN=ForeignSecurityPrincipals,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: ForeignSecurityPrincipals
+description: Default container for security identifiers (SIDs) associated with
+  objects from external, trusted domains
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3379
+uSNChanged: 3379
+showInAdvancedViewOnly: FALSE
+name: ForeignSecurityPrincipals
+objectGUID:: THRHN5ya/Um5hZHH8wJcJg==
+systemFlags: -1946157056
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=ForeignSecurityPrincipals,DC=edt,DC=org
+
+dn: CN=6E157EDF-4E72-4052-A82A-EC3F91021A22,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6E157EDF-4E72-4052-A82A-EC3F91021A22
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3452
+uSNChanged: 3452
+showInAdvancedViewOnly: TRUE
+name: 6E157EDF-4E72-4052-A82A-EC3F91021A22
+objectGUID:: UGUEK0sYOk67VycZpOJLNQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6E157EDF-4E72-4052-A82A-EC3F91021A22,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=98de1d3e-6611-443b-8b4e-f4337f1ded0b,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 98de1d3e-6611-443b-8b4e-f4337f1ded0b
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3410
+uSNChanged: 3410
+showInAdvancedViewOnly: TRUE
+name: 98de1d3e-6611-443b-8b4e-f4337f1ded0b
+objectGUID:: KvdbxgV610az3mrxN93MWw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=98de1d3e-6611-443b-8b4e-f4337f1ded0b,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=bynumber,CN=protocols,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=or
+ g
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: bynumber
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3746
+uSNChanged: 3746
+showInAdvancedViewOnly: TRUE
+name: bynumber
+objectGUID:: zhPEbCX0+EKio5UtcHxTig==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: ipProtocolNumber
+msSFU30FieldSeparator: "        "
+msSFU30IntraFieldSeparator: "        "
+msSFU30SearchAttributes: msSFU30Aliases
+msSFU30SearchAttributes: ipProtocolNumber
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: msSFU30Aliases
+msSFU30ResultAttributes: ipProtocolNumber
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (objectCategory=ipProtocol)
+distinguishedName: CN=bynumber,CN=protocols,CN=ypServ30,CN=RpcServices,CN=Syst
+ em,DC=edt,DC=org
+
+dn: CN=User,CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC
+ =edt,DC=org
+objectClass: top
+objectClass: container
+cn: User
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3586
+uSNChanged: 3586
+showInAdvancedViewOnly: TRUE
+name: User
+objectGUID:: 26Q5akQrSEGda1XOfh0+vQ==
+systemFlags: -1946157056
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=User,CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Polici
+ es,CN=System,DC=edt,DC=org
+
+dn: CN=byname,CN=group,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byname
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3764
+uSNChanged: 3764
+showInAdvancedViewOnly: TRUE
+name: byname
+objectGUID:: wzzhuk3OK0SNoO2hjO5kTw==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Name
+msSFU30FieldSeparator:: Og==
+msSFU30IntraFieldSeparator: ,
+msSFU30SearchAttributes: memberUid
+msSFU30SearchAttributes: gidNumber
+msSFU30SearchAttributes: unixUserPassword
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: memberUid
+msSFU30ResultAttributes: gidNumber
+msSFU30ResultAttributes: unixUserPassword
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (&(objectCategory=group)(gidNumber=*))
+distinguishedName: CN=byname,CN=group,CN=ypServ30,CN=RpcServices,CN=System,DC=
+ edt,DC=org
+
+dn: CN=AppCategories,CN=Default Domain Policy,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: classStore
+cn: AppCategories
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3390
+uSNChanged: 3390
+showInAdvancedViewOnly: TRUE
+name: AppCategories
+objectGUID:: FKDc6i1KLkKomT8K66QxvA==
+objectCategory: CN=Class-Store,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=AppCategories,CN=Default Domain Policy,CN=System,DC=edt,
+ DC=org
+
+dn: CN=Read-only Domain Controllers,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Read-only Domain Controllers
+description: Members of this group are Read-Only Domain Controllers in the dom
+ ain
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3554
+uSNChanged: 3554
+name: Read-only Domain Controllers
+objectGUID:: 5QgvmraipkOwuWqy7BGeFw==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUCQIAAA==
+adminCount: 1
+sAMAccountName: Read-Only Domain Controllers
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+memberOf: CN=Denied RODC Password Replication Group,CN=Users,DC=edt,DC=org
+distinguishedName: CN=Read-only Domain Controllers,CN=Users,DC=edt,DC=org
+
+dn: CN=Content,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=edt
+ ,DC=org
+objectClass: top
+objectClass: msDFSR-Content
+cn: Content
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3394
+uSNChanged: 3394
+showInAdvancedViewOnly: TRUE
+name: Content
+objectGUID:: xip9SwliEki2q+Ik6YXZbA==
+objectCategory: CN=ms-DFSR-Content,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=Content,CN=Domain System Volume,CN=DFSR-GlobalSettings,C
+ N=System,DC=edt,DC=org
+
+dn: CN=edt,CN=netmasks,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3732
+uSNChanged: 3732
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: tN4z7ut/L0K6mcabUVf7YQ==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=netmasks,CN=ypServ30,CN=RpcServices,CN=System,DC=
+ edt,DC=org
+
+dn: CN=WMIPolicy,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: WMIPolicy
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3507
+uSNChanged: 3507
+showInAdvancedViewOnly: TRUE
+name: WMIPolicy
+objectGUID:: wgki4Xoi00irZlo6qx2Ubw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=WMIPolicy,CN=System,DC=edt,DC=org
+
+dn: CN=ipsecNegotiationPolicy{59319BDF-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Secu
+ rity,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNegotiationPolicy
+cn: ipsecNegotiationPolicy{59319BDF-5EE3-11D2-ACE8-0060B0ECCA17}
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3484
+uSNChanged: 3484
+showInAdvancedViewOnly: TRUE
+name: ipsecNegotiationPolicy{59319BDF-5EE3-11D2-ACE8-0060B0ECCA17}
+objectGUID:: XEAbWvBOaU6Hx1JA4sHmaA==
+ipsecID: {59319BDF-5EE3-11D2-ACE8-0060B0ECCA17}
+ipsecDataType: 598
+ipsecData:: uSDcgMgu0RGongCgJI0wIeQBAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAADAAAAAg
+ AAAAIAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAQAAAAMAAAABAAAAAgAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAIAAAACAAAAQAAAAAgAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ EAAAABAAAAAQAAAAIAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAQAAAEAAAAAIAAAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAABA
+ AAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+ipsecOwnersReference: CN=ipsecNFA{59319BE2-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-Negotiation-Policy,CN=Schema,CN=Configuration,DC=edt,
+ DC=org
+isCriticalSystemObject: TRUE
+iPSECNegotiationPolicyType: {62F49E13-6C37-11D1-864C-14A300000000}
+iPSECNegotiationPolicyAction: {8A171DD3-77E3-11D1-8659-A04F00000000}
+distinguishedName: CN=ipsecNegotiationPolicy{59319BDF-5EE3-11D2-ACE8-0060B0ECC
+ A17},CN=IP Security,CN=System,DC=edt,DC=org
+
+dn: CN=DM,CN=Computers,DC=edt,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+objectClass: computer
+cn: DM
+instanceType: 4
+whenCreated: 20201128204448.0Z
+whenChanged: 20201128204448.0Z
+uSNCreated: 3781
+name: DM
+objectGUID:: EkG0eFdDu0yz74YBlJMayA==
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+primaryGroupID: 515
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUUgQAAA==
+accountExpires: 9223372036854775807
+sAMAccountName: DM$
+sAMAccountType: 805306369
+objectCategory: CN=Computer,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: FALSE
+msDS-SupportedEncryptionTypes: 31
+userAccountControl: 69632
+pwdLastSet: 132510698882824660
+dNSHostName: dm.edt.org
+servicePrincipalName: HOST/DM
+servicePrincipalName: HOST/dm.edt.org
+lastLogonTimestamp: 132510698885866770
+uSNChanged: 3785
+lastLogon: 132510702771054340
+logonCount: 5
+distinguishedName: CN=DM,CN=Computers,DC=edt,DC=org
+
+dn: CN=6bcd5684-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd5684-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3437
+uSNChanged: 3437
+showInAdvancedViewOnly: TRUE
+name: 6bcd5684-8314-11d6-977b-00c04f613221
+objectGUID:: q8PPAknzS02fo3GanIe3ag==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd5684-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=edt,CN=ypservers,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3768
+uSNChanged: 3768
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: zXKucZKvs0ifZP4MnyE/0Q==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=ypservers,CN=ypServ30,CN=RpcServices,CN=System,DC
+ =edt,DC=org
+
+dn: CN=2951353e-d102-4ea5-906c-54247eeec741,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 2951353e-d102-4ea5-906c-54247eeec741
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3455
+uSNChanged: 3455
+showInAdvancedViewOnly: TRUE
+name: 2951353e-d102-4ea5-906c-54247eeec741
+objectGUID:: HJGpCCWkjUGcfsBy/Tz06g==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=2951353e-d102-4ea5-906c-54247eeec741,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=6bcd5689-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd5689-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3442
+uSNChanged: 3442
+showInAdvancedViewOnly: TRUE
+name: 6bcd5689-8314-11d6-977b-00c04f613221
+objectGUID:: VONrsmu+g0iGFmM2rsmsGg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd5689-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=0b7fb422-3609-4587-8c2e-94b10f67d1bf,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 0b7fb422-3609-4587-8c2e-94b10f67d1bf
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3453
+uSNChanged: 3453
+showInAdvancedViewOnly: TRUE
+name: 0b7fb422-3609-4587-8c2e-94b10f67d1bf
+objectGUID:: KycHjSrRQEy1lcLcS2usFQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=0b7fb422-3609-4587-8c2e-94b10f67d1bf,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=5c82b233-75fc-41b3-ac71-c69592e6bf15,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 5c82b233-75fc-41b3-ac71-c69592e6bf15
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3417
+uSNChanged: 3417
+showInAdvancedViewOnly: TRUE
+name: 5c82b233-75fc-41b3-ac71-c69592e6bf15
+objectGUID:: MK92vqIkEE+4x81aElGz7g==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=5c82b233-75fc-41b3-ac71-c69592e6bf15,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=6bcd5680-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd5680-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3433
+uSNChanged: 3433
+showInAdvancedViewOnly: TRUE
+name: 6bcd5680-8314-11d6-977b-00c04f613221
+objectGUID:: i7gsvZJUdUOFYtACpJ/WAg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd5680-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=byname,CN=ethers,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byname
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3739
+uSNChanged: 3739
+showInAdvancedViewOnly: TRUE
+name: byname
+objectGUID:: 4ogeXF/ouEO7P5dkTKP7fg==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Name
+msSFU30FieldSeparator: "        "
+msSFU30SearchAttributes: msSFU30Name
+msSFU30SearchAttributes: macAddress
+msSFU30ResultAttributes: msSFU30Name
+msSFU30ResultAttributes: macAddress
+msSFU30MapFilter: (&(objectCategory=Device)(macAddress=*))
+distinguishedName: CN=byname,CN=ethers,CN=ypServ30,CN=RpcServices,CN=System,DC
+ =edt,DC=org
+
+dn: CN=byaddr,CN=hosts,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byaddr
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3734
+uSNChanged: 3734
+showInAdvancedViewOnly: TRUE
+name: byaddr
+objectGUID:: 6VZwpL2IWkmfAqcJqbp/jQ==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: ipHostNumber
+msSFU30FieldSeparator: "        "
+msSFU30IntraFieldSeparator: "        "
+msSFU30SearchAttributes: msSFU30Aliases
+msSFU30SearchAttributes: msSFU30Name
+msSFU30SearchAttributes: ipHostNumber
+msSFU30ResultAttributes: msSFU30Aliases
+msSFU30ResultAttributes: msSFU30Name
+msSFU30ResultAttributes: ipHostNumber
+msSFU30MapFilter: (objectCategory=Computer)
+distinguishedName: CN=byaddr,CN=hosts,CN=ypServ30,CN=RpcServices,CN=System,DC=
+ edt,DC=org
+
+dn: CN=Cryptographic Operators,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Cryptographic Operators
+description: Members are authorized to perform cryptographic operations.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3580
+uSNChanged: 3580
+name: Cryptographic Operators
+objectGUID:: NJsLnejW70OCO9d48mOQqw==
+objectSid:: AQIAAAAAAAUgAAAAOQIAAA==
+sAMAccountName: Cryptographic Operators
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Cryptographic Operators,CN=Builtin,DC=edt,DC=org
+
+dn: CN=6bcd568c-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd568c-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3445
+uSNChanged: 3445
+showInAdvancedViewOnly: TRUE
+name: 6bcd568c-8314-11d6-977b-00c04f613221
+objectGUID:: 3yCK5Qk98km+NwwpCVVaDQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd568c-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: dnsZone
+cn: Zone
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3605
+uSNChanged: 3605
+showInAdvancedViewOnly: TRUE
+name: RootDNSServers
+objectGUID:: Y8mT4jSF7EyRO+d7YKZnaw==
+objectCategory: CN=Dns-Zone,CN=Schema,CN=Configuration,DC=edt,DC=org
+dNSProperty:: BAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA==
+dNSProperty:: AQAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAA==
+dNSProperty:: CAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAAAAAAAAAAAA=
+dNSProperty:: BAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAAAAAAA==
+dNSProperty:: BAAAAAAAAAAAAAAAAQAAACAAAAAAAAAAAAAAAA==
+dNSProperty:: BAAAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAA==
+dNSProperty:: BAAAAAAAAAAAAAAAAQAAABIAAAAAAAAAAAAAAA==
+dc: RootDNSServers
+distinguishedName: DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,DC=org
+
+dn: CN=ipsecNegotiationPolicy{7238523F-70FA-11D1-864C-14A300000000},CN=IP Secu
+ rity,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNegotiationPolicy
+cn: ipsecNegotiationPolicy{7238523F-70FA-11D1-864C-14A300000000}
+description: Accepts unsecured communication, but always requires clients to e
+ stablish trust and security methods.  Will NOT communicate with untrusted cli
+ ents.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3496
+uSNChanged: 3496
+showInAdvancedViewOnly: TRUE
+name: ipsecNegotiationPolicy{7238523F-70FA-11D1-864C-14A300000000}
+objectGUID:: nLbrL0C4+EeijmTC/4dceA==
+ipsecName: Require Security
+ipsecID: {7238523F-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: uSDcgMgu0RGongCgJI0wIUQBAAAEAAAAhAMAAKCGAQAAAAAAAAAAAAEAAAADAAAAAg
+ AAAAIAAABAAAAACAAAAHUAcgByAGUAbgB0AEMAbwBuAHQAcgBvAGwAUwBlAHQAXABTAGUAcgCEAwA
+ AoIYBAAAAAAAAAAAAAQAAAAMAAAABAAAAAgAAAEAAAAAIAAAAcABzAGUAYwBOAEYAQQB7ADcAMgAz
+ ADgANQAyADMARQAtADcAMABGAIQDAACghgEAAAAAAAAAAAABAAAAAQAAAAIAAAACAAAAQAAAAAgAA
+ ABsAGkAYwB5AFwATABvAGMAYQBsAFwAaQBwAHMAZQBjAE4ARgBBAHsAhAMAAKCGAQAAAAAAAAAAAA
+ EAAAABAAAAAQAAAAIAAABAAAAACAAAAGUAYwBOAEYAQQB7AEIARgBDADcAQwAzADUAQQAtAEIANQA
+ 5ADIALQAA
+ipsecOwnersReference: CN=ipsecNFA{7238523E-70FA-11D1-864C-14A300000000},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-Negotiation-Policy,CN=Schema,CN=Configuration,DC=edt,
+ DC=org
+isCriticalSystemObject: TRUE
+iPSECNegotiationPolicyType: {62F49E10-6C37-11D1-864C-14A300000000}
+iPSECNegotiationPolicyAction: {3F91A81A-7647-11D1-864D-D46A00000000}
+distinguishedName: CN=ipsecNegotiationPolicy{7238523F-70FA-11D1-864C-14A300000
+ 000},CN=IP Security,CN=System,DC=edt,DC=org
+
+dn: CN=6bcd5685-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd5685-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3438
+uSNChanged: 3438
+showInAdvancedViewOnly: TRUE
+name: 6bcd5685-8314-11d6-977b-00c04f613221
+objectGUID:: ybhy1Z3cEEK+zVaVQ4ZCbg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd5685-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=6bcd567c-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd567c-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3429
+uSNChanged: 3429
+showInAdvancedViewOnly: TRUE
+name: 6bcd567c-8314-11d6-977b-00c04f613221
+objectGUID:: 2jGbJG3ClkiLWe22VMqTtA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd567c-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=ipsecNegotiationPolicy{59319BF0-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Secu
+ rity,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNegotiationPolicy
+cn: ipsecNegotiationPolicy{59319BF0-5EE3-11D2-ACE8-0060B0ECCA17}
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3497
+uSNChanged: 3497
+showInAdvancedViewOnly: TRUE
+name: ipsecNegotiationPolicy{59319BF0-5EE3-11D2-ACE8-0060B0ECCA17}
+objectGUID:: 6FIqrw18e0mpTfkmfmYq0w==
+ipsecID: {59319BF0-5EE3-11D2-ACE8-0060B0ECCA17}
+ipsecDataType: 598
+ipsecData:: uSDcgMgu0RGongCgJI0wIeQBAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAADAAAAAg
+ AAAAIAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAQAAAAMAAAABAAAAAgAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAIAAAACAAAAQAAAAAgAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ EAAAABAAAAAQAAAAIAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAQAAAEAAAAAIAAAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAABA
+ AAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+ipsecOwnersReference: CN=ipsecNFA{59319BF3-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-Negotiation-Policy,CN=Schema,CN=Configuration,DC=edt,
+ DC=org
+isCriticalSystemObject: TRUE
+iPSECNegotiationPolicyType: {62F49E13-6C37-11D1-864C-14A300000000}
+iPSECNegotiationPolicyAction: {8A171DD3-77E3-11D1-8659-A04F00000000}
+distinguishedName: CN=ipsecNegotiationPolicy{59319BF0-5EE3-11D2-ACE8-0060B0ECC
+ A17},CN=IP Security,CN=System,DC=edt,DC=org
+
+dn: CN=DomainUpdates,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: DomainUpdates
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3396
+uSNChanged: 3396
+showInAdvancedViewOnly: TRUE
+name: DomainUpdates
+objectGUID:: E0zWpPYSUEu4yjM5j2ft6g==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=DomainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=Incoming Forest Trust Builders,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Incoming Forest Trust Builders
+description: Members of this group can create incoming, one-way trusts to this
+  forest
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3573
+uSNChanged: 3573
+name: Incoming Forest Trust Builders
+objectGUID:: 7oRQP7NmIkiGsQNLMOEwvQ==
+objectSid:: AQIAAAAAAAUgAAAALQIAAA==
+sAMAccountName: Incoming Forest Trust Builders
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Incoming Forest Trust Builders,CN=Builtin,DC=edt,DC=org
+
+dn: CN=ComPartitions,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: ComPartitions
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3387
+uSNChanged: 3387
+showInAdvancedViewOnly: TRUE
+name: ComPartitions
+objectGUID:: ycEEBuAoRUu8+EvUv5Z44w==
+systemFlags: -1946157056
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=ComPartitions,CN=System,DC=edt,DC=org
+
+dn: CN=bootparams,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: bootparams
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3722
+uSNChanged: 3722
+showInAdvancedViewOnly: TRUE
+name: bootparams
+objectGUID:: aVlQC3CJrE+I97b+MEzXlQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=bootparams,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,D
+ C=org
+
+dn: CN=Denied RODC Password Replication Group,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Denied RODC Password Replication Group
+description: Members in this group cannot have their passwords replicated to a
+ ny read-only domain controllers in the domain
+member: CN=Domain Controllers,CN=Users,DC=edt,DC=org
+member: CN=Domain Admins,CN=Users,DC=edt,DC=org
+member: CN=Group Policy Creator Owners,CN=Users,DC=edt,DC=org
+member: CN=Schema Admins,CN=Users,DC=edt,DC=org
+member: CN=Cert Publishers,CN=Users,DC=edt,DC=org
+member: CN=Enterprise Admins,CN=Users,DC=edt,DC=org
+member: CN=krbtgt,CN=Users,DC=edt,DC=org
+member: CN=Read-only Domain Controllers,CN=Users,DC=edt,DC=org
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3557
+uSNChanged: 3557
+name: Denied RODC Password Replication Group
+objectGUID:: OHWtxB1pM0WsrqJ24w5zWg==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUPAIAAA==
+sAMAccountName: Denied RODC Password Replication Group
+sAMAccountType: 536870912
+groupType: -2147483644
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Denied RODC Password Replication Group,CN=Users,DC=edt,D
+ C=org
+
+dn: CN=10b3ad2a-6883-4fa7-90fc-6377cbdc1b26,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 10b3ad2a-6883-4fa7-90fc-6377cbdc1b26
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3409
+uSNChanged: 3409
+showInAdvancedViewOnly: TRUE
+name: 10b3ad2a-6883-4fa7-90fc-6377cbdc1b26
+objectGUID:: seYQp2XsT0avqTFyQMLkwg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=10b3ad2a-6883-4fa7-90fc-6377cbdc1b26,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=6bcd567d-8314-11d6-977b-00c04f613221,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 6bcd567d-8314-11d6-977b-00c04f613221
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3430
+uSNChanged: 3430
+showInAdvancedViewOnly: TRUE
+name: 6bcd567d-8314-11d6-977b-00c04f613221
+objectGUID:: bUrPSOTPZ0y6taWHka7l0Q==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=6bcd567d-8314-11d6-977b-00c04f613221,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=a3dac986-80e7-4e59-a059-54cb1ab43cb9,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: a3dac986-80e7-4e59-a059-54cb1ab43cb9
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3463
+uSNChanged: 3463
+showInAdvancedViewOnly: TRUE
+name: a3dac986-80e7-4e59-a059-54cb1ab43cb9
+objectGUID:: 3ll786I73kOqfltBvoD4LQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=a3dac986-80e7-4e59-a059-54cb1ab43cb9,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=ipsecISAKMPPolicy{72385231-70FA-11D1-864C-14A300000000},CN=IP Security,
+ CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecISAKMPPolicy
+cn: ipsecISAKMPPolicy{72385231-70FA-11D1-864C-14A300000000}
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3478
+uSNChanged: 3478
+showInAdvancedViewOnly: TRUE
+name: ipsecISAKMPPolicy{72385231-70FA-11D1-864C-14A300000000}
+objectGUID:: jS9g4aQ3oUqSl0ZDTgBSZA==
+ipsecID: {72385231-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: uCDcgMgu0RGongCgJI0wIUABAABo0hlRHQfTEa0iAGCw7MoXAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAADNzQMAAABAAAAACAAAAAIAAABAAAA
+ AAAAAAAAAAAAAAAAAAAAAAADNzc0CAAAAAAAAAAAAAACAcAAAzc3NzQAAzc0DAAAAQAAAAAgAAAAB
+ AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAzc3NAgAAAAAAAAAAAAAAgHAAAM3Nzc0AAM3NAQAAAEAAA
+ AAIAAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAM3NzQEAAAAAAAAAAAAAAIBwAADNzc3NAADNzQ
+ EAAABAAAAACAAAAAEAAABAAAAAAAAAAAAAAAAAAAAAAAAAAADNzc0BAAAAAAAAAAAAAACAcAAAzc3
+ NzQA=
+ipsecOwnersReference: CN=ipsecPolicy{72385230-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-ISAKMP-Policy,CN=Schema,CN=Configuration,DC=edt,DC=or
+ g
+isCriticalSystemObject: TRUE
+distinguishedName: CN=ipsecISAKMPPolicy{72385231-70FA-11D1-864C-14A300000000},
+ CN=IP Security,CN=System,DC=edt,DC=org
+
+dn: CN=edt,CN=mail,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3718
+uSNChanged: 3718
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: igxdHNdP8kiYxukhmPPlzQ==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=mail,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,
+ DC=org
+
+dn: CN=SOM,CN=WMIPolicy,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: SOM
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3510
+uSNChanged: 3510
+showInAdvancedViewOnly: TRUE
+name: SOM
+objectGUID:: 6IXyFwV4/kqFWo0U4jpNiQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=SOM,CN=WMIPolicy,CN=System,DC=edt,DC=org
+
+dn: CN=RID Set,CN=AD,OU=Domain Controllers,DC=edt,DC=org
+objectClass: top
+objectClass: rIDSet
+cn: RID Set
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3584
+uSNChanged: 3584
+showInAdvancedViewOnly: TRUE
+name: RID Set
+objectGUID:: 4c0ApSyBZEOcHbmR7OPMcQ==
+rIDAllocationPool: 6867652707404
+rIDPreviousAllocationPool: 6867652707404
+rIDUsedPool: 0
+objectCategory: CN=RID-Set,CN=Schema,CN=Configuration,DC=edt,DC=org
+rIDNextRID: 1106
+distinguishedName: CN=RID Set,CN=AD,OU=Domain Controllers,DC=edt,DC=org
+
+dn: CN=S-1-5-4,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+objectClass: top
+objectClass: foreignSecurityPrincipal
+cn: S-1-5-4
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3558
+uSNChanged: 3558
+showInAdvancedViewOnly: TRUE
+name: S-1-5-4
+objectGUID:: Hi6WGs7W00qg1EZePY0sOQ==
+objectSid:: AQEAAAAAAAUEAAAA
+objectCategory: CN=Foreign-Security-Principal,CN=Schema,CN=Configuration,DC=ed
+ t,DC=org
+memberOf: CN=Users,CN=Builtin,DC=edt,DC=org
+distinguishedName: CN=S-1-5-4,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+
+dn: CN=WinsockServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: WinsockServices
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3506
+uSNChanged: 3506
+showInAdvancedViewOnly: TRUE
+name: WinsockServices
+objectGUID:: uPqkqMkTC0a5EV/w3g1jMg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=WinsockServices,CN=System,DC=edt,DC=org
+
+dn: CN=Distributed COM Users,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Distributed COM Users
+description: Members are allowed to launch, activate and use Distributed COM o
+ bjects on this machine.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3578
+uSNChanged: 3578
+name: Distributed COM Users
+objectGUID:: ZNJ+t2J470SFbPZiyf/7mg==
+objectSid:: AQIAAAAAAAUgAAAAMgIAAA==
+sAMAccountName: Distributed COM Users
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Distributed COM Users,CN=Builtin,DC=edt,DC=org
+
+dn: CN=2416c60a-fe15-4d7a-a61e-dffd5df864d3,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 2416c60a-fe15-4d7a-a61e-dffd5df864d3
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3402
+uSNChanged: 3402
+showInAdvancedViewOnly: TRUE
+name: 2416c60a-fe15-4d7a-a61e-dffd5df864d3
+objectGUID:: KmfxHfY1806PiNPVwxxwdg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=2416c60a-fe15-4d7a-a61e-dffd5df864d3,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=byaddr,CN=netmasks,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byaddr
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3731
+uSNChanged: 3731
+showInAdvancedViewOnly: TRUE
+name: byaddr
+objectGUID:: A8Jb8u+kh0aCtePZQRBTJA==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: ipNetworkNumber
+msSFU30FieldSeparator: "        "
+msSFU30IntraFieldSeparator: "        "
+msSFU30SearchAttributes: ipNetmaskNumber
+msSFU30SearchAttributes: ipNetworkNumber
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: ipNetmaskNumber
+msSFU30ResultAttributes: ipNetworkNumber
+msSFU30MapFilter: (&(objectCategory=ipNetwork)(ipNetmaskNumber=*))
+distinguishedName: CN=byaddr,CN=netmasks,CN=ypServ30,CN=RpcServices,CN=System,
+ DC=edt,DC=org
+
+dn: CN=bydefaults,CN=ypservers,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=
+ org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: bydefaults
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3767
+uSNChanged: 3767
+showInAdvancedViewOnly: TRUE
+name: bydefaults
+objectGUID:: IVvfek/6D0ChprHxHgLboA==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Name
+msSFU30FieldSeparator:: IA==
+msSFU30IntraFieldSeparator:: IA==
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (objectCategory=msSFU30YpServers)
+distinguishedName: CN=bydefaults,CN=ypservers,CN=ypServ30,CN=RpcServices,CN=Sy
+ stem,DC=edt,DC=org
+
+dn: CN=Schema Admins,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Schema Admins
+description: Designated administrators of the schema
+member: CN=Administrator,CN=Users,DC=edt,DC=org
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3551
+uSNChanged: 3551
+name: Schema Admins
+objectGUID:: TSfLSWI2rUeusUtyifLDCg==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUBgIAAA==
+adminCount: 1
+sAMAccountName: Schema Admins
+sAMAccountType: 268435456
+groupType: -2147483640
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+memberOf: CN=Denied RODC Password Replication Group,CN=Users,DC=edt,DC=org
+distinguishedName: CN=Schema Admins,CN=Users,DC=edt,DC=org
+
+dn: CN=shadow,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: shadow
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3759
+uSNChanged: 3759
+showInAdvancedViewOnly: TRUE
+name: shadow
+objectGUID:: f7vYz2Z3rEqlIMCgR/FD/Q==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=shadow,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=or
+ g
+
+dn: CN=Guest,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Guest
+description: Built-in account for guest access to the computer/domain
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3546
+uSNChanged: 3546
+name: Guest
+objectGUID:: vG+gi2lrjkOGyeBgSHEqtg==
+userAccountControl: 66082
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 0
+primaryGroupID: 514
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyU9QEAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: Guest
+sAMAccountType: 805306368
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+memberOf: CN=Guests,CN=Builtin,DC=edt,DC=org
+distinguishedName: CN=Guest,CN=Users,DC=edt,DC=org
+
+dn: CN=dda1d01d-4bd7-4c49-a184-46f9241b560e,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: dda1d01d-4bd7-4c49-a184-46f9241b560e
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3467
+uSNChanged: 3467
+showInAdvancedViewOnly: TRUE
+name: dda1d01d-4bd7-4c49-a184-46f9241b560e
+objectGUID:: +7OfP8CtW0qivXfuJSsaqw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=dda1d01d-4bd7-4c49-a184-46f9241b560e,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=IP Security,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: IP Security
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3476
+uSNChanged: 3476
+showInAdvancedViewOnly: TRUE
+name: IP Security
+objectGUID:: Pumhcz1Hzkap+X1AymKeWw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=IP Security,CN=System,DC=edt,DC=org
+
+dn: CN=Enterprise Read-only Domain Controllers,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Enterprise Read-only Domain Controllers
+description: Members of this group are Read-Only Domain Controllers in the ent
+ erprise
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3548
+uSNChanged: 3548
+name: Enterprise Read-only Domain Controllers
+objectGUID:: 4v8SsP1mqkiZcbZrvXz+Lg==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyU8gEAAA==
+sAMAccountName: Enterprise Read-Only Domain Controllers
+sAMAccountType: 268435456
+groupType: -2147483640
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Enterprise Read-only Domain Controllers,CN=Users,DC=edt,
+ DC=org
+
+dn: CN=bydefaults,CN=netgroup,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=o
+ rg
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: bydefaults
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3726
+uSNChanged: 3726
+showInAdvancedViewOnly: TRUE
+name: bydefaults
+objectGUID:: PEfH+0LA8kS6fbmU4Bp6dw==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Name
+msSFU30FieldSeparator: "        "
+msSFU30IntraFieldSeparator: ,
+msSFU30SearchAttributes: NisNetgroupTriple
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: NisNetgroupTriple
+msSFU30MapFilter: (objectCategory=NisNetgroup)
+distinguishedName: CN=bydefaults,CN=netgroup,CN=ypServ30,CN=RpcServices,CN=Sys
+ tem,DC=edt,DC=org
+
+dn: CN=71482d49-8870-4cb3-a438-b6fc9ec35d70,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 71482d49-8870-4cb3-a438-b6fc9ec35d70
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3460
+uSNChanged: 3460
+showInAdvancedViewOnly: TRUE
+name: 71482d49-8870-4cb3-a438-b6fc9ec35d70
+objectGUID:: qvdZs9am60ihgWpXIvrfWg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=71482d49-8870-4cb3-a438-b6fc9ec35d70,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=ipsecNFA{59319BE2-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Security,CN=System
+ ,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNFA
+cn: ipsecNFA{59319BE2-5EE3-11D2-ACE8-0060B0ECCA17}
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3480
+showInAdvancedViewOnly: TRUE
+name: ipsecNFA{59319BE2-5EE3-11D2-ACE8-0060B0ECCA17}
+objectGUID:: VJyEdVdGdkC8BI7k9+WciA==
+ipsecID: {59319BE2-5EE3-11D2-ACE8-0060B0ECCA17}
+ipsecDataType: 598
+ipsecData:: AKy7EY1J0RGGOQCgJI0wISoAAAABAAAABQAAAAIAAAAAAP3///8CAAAAAAAAAAAAAA
+ AAAAEAAAACAAAAAAAA
+ipsecOwnersReference: CN=ipsecPolicy{72385230-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-NFA,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+ipsecNegotiationPolicyReference: CN=ipsecNegotiationPolicy{59319BDF-5EE3-11D2-
+ ACE8-0060B0ECCA17},CN=IP Security,CN=System,DC=edt,DC=org
+whenChanged: 20201128201056.0Z
+uSNChanged: 3708
+distinguishedName: CN=ipsecNFA{59319BE2-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+
+dn: CN=bydefaults,CN=shadow,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: bydefaults
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3760
+uSNChanged: 3760
+showInAdvancedViewOnly: TRUE
+name: bydefaults
+objectGUID:: RGmUe8Hh8UCVwgCx8s9MgA==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Name
+msSFU30FieldSeparator:: Og==
+msSFU30IntraFieldSeparator:: Og==
+msSFU30SearchAttributes: shadowFlag
+msSFU30SearchAttributes: shadowExpire
+msSFU30SearchAttributes: shadowInactive
+msSFU30SearchAttributes: shadowWarning
+msSFU30SearchAttributes: shadowMax
+msSFU30SearchAttributes: shadowMin
+msSFU30SearchAttributes: shadowLastChange
+msSFU30SearchAttributes: unixUserPassword
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: shadowFlag
+msSFU30ResultAttributes: shadowExpire
+msSFU30ResultAttributes: shadowInactive
+msSFU30ResultAttributes: shadowWarning
+msSFU30ResultAttributes: shadowMax
+msSFU30ResultAttributes: shadowMin
+msSFU30ResultAttributes: shadowLastChange
+msSFU30ResultAttributes: unixUserPassword
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (uidNumber=*)
+distinguishedName: CN=bydefaults,CN=shadow,CN=ypServ30,CN=RpcServices,CN=Syste
+ m,DC=edt,DC=org
+
+dn: CN=byuid,CN=passwd,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byuid
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3756
+uSNChanged: 3756
+showInAdvancedViewOnly: TRUE
+name: byuid
+objectGUID:: JHbVT8Ko9UG7X2B0VPlK6A==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: uidNumber
+msSFU30FieldSeparator:: Og==
+msSFU30SearchAttributes: loginShell
+msSFU30SearchAttributes: unixHomeDirectory
+msSFU30SearchAttributes: gecos
+msSFU30SearchAttributes: gidNumber
+msSFU30SearchAttributes: uidNumber
+msSFU30SearchAttributes: unixUserPassword
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: loginShell
+msSFU30ResultAttributes: unixHomeDirectory
+msSFU30ResultAttributes: gecos
+msSFU30ResultAttributes: gidNumber
+msSFU30ResultAttributes: uidNumber
+msSFU30ResultAttributes: unixUserPassword
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (uidNumber=*)
+distinguishedName: CN=byuid,CN=passwd,CN=ypServ30,CN=RpcServices,CN=System,DC=
+ edt,DC=org
+
+dn: CN=ethers,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: ethers
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3737
+uSNChanged: 3737
+showInAdvancedViewOnly: TRUE
+name: ethers
+objectGUID:: 3JaQRjPPV0Wy4pZWk+uJAQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=ethers,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=or
+ g
+
+dn: CN=Account Operators,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Account Operators
+description: Members can administer domain user and group accounts
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3565
+uSNChanged: 3565
+name: Account Operators
+objectGUID:: imsJ90w9AUGN3ljq2HaThw==
+objectSid:: AQIAAAAAAAUgAAAAJAIAAA==
+adminCount: 1
+sAMAccountName: Account Operators
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Account Operators,CN=Builtin,DC=edt,DC=org
+
+dn: CN=PolicyType,CN=WMIPolicy,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: PolicyType
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3509
+uSNChanged: 3509
+showInAdvancedViewOnly: TRUE
+name: PolicyType
+objectGUID:: CQfBFpMW60ubNxP4H/WxKg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=PolicyType,CN=WMIPolicy,CN=System,DC=edt,DC=org
+
+dn: CN=edt,CN=bootparams,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3724
+uSNChanged: 3724
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: WmlHjaKaJkahSaI1cjinHQ==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=bootparams,CN=ypServ30,CN=RpcServices,CN=System,D
+ C=edt,DC=org
+
+dn: CN=Group Policy Creator Owners,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Group Policy Creator Owners
+description: Members in this group can modify group policy for the domain
+member: CN=Administrator,CN=Users,DC=edt,DC=org
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3553
+uSNChanged: 3553
+name: Group Policy Creator Owners
+objectGUID:: SdEE5h9O1E6yJ50sdDhAYA==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUCAIAAA==
+sAMAccountName: Group Policy Creator Owners
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+memberOf: CN=Denied RODC Password Replication Group,CN=Users,DC=edt,DC=org
+distinguishedName: CN=Group Policy Creator Owners,CN=Users,DC=edt,DC=org
+
+dn: CN=8ca38317-13a4-4bd4-806f-ebed6acb5d0c,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 8ca38317-13a4-4bd4-806f-ebed6acb5d0c
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3423
+uSNChanged: 3423
+showInAdvancedViewOnly: TRUE
+name: 8ca38317-13a4-4bd4-806f-ebed6acb5d0c
+objectGUID:: a9gD8Fc46EK3xXay0SkcIw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=8ca38317-13a4-4bd4-806f-ebed6acb5d0c,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=Network Configuration Operators,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Network Configuration Operators
+description: Members in this group can have some administrative privileges to 
+ manage configuration of networking features
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3572
+uSNChanged: 3572
+name: Network Configuration Operators
+objectGUID:: A7F21ZOcL0OR5sVT87DNRg==
+objectSid:: AQIAAAAAAAUgAAAALAIAAA==
+sAMAccountName: Network Configuration Operators
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Network Configuration Operators,CN=Builtin,DC=edt,DC=org
+
+dn: CN=ipsecNegotiationPolicy{59319C01-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Secu
+ rity,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNegotiationPolicy
+cn: ipsecNegotiationPolicy{59319C01-5EE3-11D2-ACE8-0060B0ECCA17}
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3490
+uSNChanged: 3490
+showInAdvancedViewOnly: TRUE
+name: ipsecNegotiationPolicy{59319C01-5EE3-11D2-ACE8-0060B0ECCA17}
+objectGUID:: tGUkPcbzI0unK8QWB7cB5Q==
+ipsecID: {59319C01-5EE3-11D2-ACE8-0060B0ECCA17}
+ipsecDataType: 598
+ipsecData:: uSDcgMgu0RGongCgJI0wIeQBAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAADAAAAAg
+ AAAAIAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAQAAAAMAAAABAAAAAgAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAIAAAACAAAAQAAAAAgAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ EAAAABAAAAAQAAAAIAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAQAAAEAAAAAIAAAAAAAAAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAABA
+ AAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+ipsecOwnersReference: CN=ipsecNFA{59319C04-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-Negotiation-Policy,CN=Schema,CN=Configuration,DC=edt,
+ DC=org
+isCriticalSystemObject: TRUE
+iPSECNegotiationPolicyType: {62F49E13-6C37-11D1-864C-14A300000000}
+iPSECNegotiationPolicyAction: {8A171DD3-77E3-11D1-8659-A04F00000000}
+distinguishedName: CN=ipsecNegotiationPolicy{59319C01-5EE3-11D2-ACE8-0060B0ECC
+ A17},CN=IP Security,CN=System,DC=edt,DC=org
+
+dn: CN=byhost,CN=netgroup,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byhost
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3728
+uSNChanged: 3728
+showInAdvancedViewOnly: TRUE
+name: byhost
+objectGUID:: 5mrIVaju0k+SdPNe331OvA==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30NetgroupHostAtDomain
+msSFU30FieldSeparator: "        "
+msSFU30IntraFieldSeparator: ,
+msSFU30SearchAttributes: msSFU30Name
+msSFU30SearchAttributes: MemberNisNetgroup
+msSFU30SearchAttributes: msSFU30NetgroupHostAtDomain
+msSFU30ResultAttributes: MemberNisNetgroup
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (objectCategory=NisNetgroup)
+distinguishedName: CN=byhost,CN=netgroup,CN=ypServ30,CN=RpcServices,CN=System,
+ DC=edt,DC=org
+
+dn: CN=byname,CN=networks,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byname
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3743
+uSNChanged: 3743
+showInAdvancedViewOnly: TRUE
+name: byname
+objectGUID:: rqorB2pAFkCNDgq6U/+Wbg==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Aliases
+msSFU30KeyAttributes: msSFU30Name
+msSFU30FieldSeparator: "        "
+msSFU30IntraFieldSeparator: "        "
+msSFU30SearchAttributes: msSFU30Aliases
+msSFU30SearchAttributes: ipNetworkNumber
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: msSFU30Aliases
+msSFU30ResultAttributes: ipNetworkNumber
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (objectCategory=ipNetwork)
+distinguishedName: CN=byname,CN=networks,CN=ypServ30,CN=RpcServices,CN=System,
+ DC=edt,DC=org
+
+dn: CN=PolicyTemplate,CN=WMIPolicy,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: PolicyTemplate
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3508
+uSNChanged: 3508
+showInAdvancedViewOnly: TRUE
+name: PolicyTemplate
+objectGUID:: /dFXOIQjk0eCfB4M5aiBWg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=PolicyTemplate,CN=WMIPolicy,CN=System,DC=edt,DC=org
+
+dn: CN=Meetings,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: Meetings
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3499
+uSNChanged: 3499
+showInAdvancedViewOnly: TRUE
+name: Meetings
+objectGUID:: jRep2rbEeEeT5/LSV0qzhQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Meetings,CN=System,DC=edt,DC=org
+
+dn: CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: ypServ30
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3714
+uSNChanged: 3714
+showInAdvancedViewOnly: TRUE
+schemaVersion: 40
+name: ypServ30
+objectGUID:: rqe7t1QMzU+aTXjjJpxNhA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+
+dn: CN=protocols,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: protocols
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3745
+uSNChanged: 3745
+showInAdvancedViewOnly: TRUE
+name: protocols
+objectGUID:: 6kCcHkZNPk2UdxEtEpiDQw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=protocols,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC
+ =org
+
+dn: CN=Machine,CN={6AC1786C-016F-11D2-945F-00C04FB984F9},CN=Policies,CN=System
+ ,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: Machine
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3590
+uSNChanged: 3590
+showInAdvancedViewOnly: TRUE
+name: Machine
+objectGUID:: cy89hxfnykK90yk41iPYcw==
+systemFlags: -1946157056
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Machine,CN={6AC1786C-016F-11D2-945F-00C04FB984F9},CN=Pol
+ icies,CN=System,DC=edt,DC=org
+
+dn: CN=Infrastructure,DC=edt,DC=org
+objectClass: top
+objectClass: infrastructureUpdate
+cn: Infrastructure
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3380
+showInAdvancedViewOnly: TRUE
+name: Infrastructure
+objectGUID:: 3Gfz4JiLzEK1DMz9SIGb8Q==
+systemFlags: -1946157056
+objectCategory: CN=Infrastructure-Update,CN=Schema,CN=Configuration,DC=edt,DC=
+ org
+isCriticalSystemObject: TRUE
+fSMORoleOwner: CN=NTDS Settings,CN=AD,CN=Servers,CN=Default-First-Site-Name,CN
+ =Sites,CN=Configuration,DC=edt,DC=org
+uSNChanged: 3597
+distinguishedName: CN=Infrastructure,DC=edt,DC=org
+
+dn: CN=edt,CN=ethers,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3740
+uSNChanged: 3740
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: JBcacQf8gUu7ZxzpClqaKg==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=ethers,CN=ypServ30,CN=RpcServices,CN=System,DC=ed
+ t,DC=org
+
+dn: CN=edt,CN=rpc,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3751
+uSNChanged: 3751
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: aTG8HHvpyUuVMOBfm/n8CQ==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=rpc,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,D
+ C=org
+
+dn: CN=61b34cb0-55ee-4be9-b595-97810b92b017,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 61b34cb0-55ee-4be9-b595-97810b92b017
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3459
+uSNChanged: 3459
+showInAdvancedViewOnly: TRUE
+name: 61b34cb0-55ee-4be9-b595-97810b92b017
+objectGUID:: IxT+W1w1rUewTQxW9CTsng==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=61b34cb0-55ee-4be9-b595-97810b92b017,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=c88227bc-fcca-4b58-8d8a-cd3d64528a02,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: c88227bc-fcca-4b58-8d8a-cd3d64528a02
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3466
+uSNChanged: 3466
+showInAdvancedViewOnly: TRUE
+name: c88227bc-fcca-4b58-8d8a-cd3d64528a02
+objectGUID:: H7tpGhpQgU+L9nda2EZ+OQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=c88227bc-fcca-4b58-8d8a-cd3d64528a02,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=bab5f54d-06c8-48de-9b87-d78b796564e4,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: bab5f54d-06c8-48de-9b87-d78b796564e4
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3400
+uSNChanged: 3400
+showInAdvancedViewOnly: TRUE
+name: bab5f54d-06c8-48de-9b87-d78b796564e4
+objectGUID:: pnbJQ8nwdUeWBowgE/7Hdg==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=bab5f54d-06c8-48de-9b87-d78b796564e4,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=krbtgt,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: krbtgt
+description: Key Distribution Center Service Account
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3547
+uSNChanged: 3547
+showInAdvancedViewOnly: TRUE
+name: krbtgt
+objectGUID:: tROMyHuetk6bZFa0yB2ubA==
+userAccountControl: 514
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132510678546978790
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyU9gEAAA==
+adminCount: 1
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: krbtgt
+sAMAccountType: 805306368
+servicePrincipalName: kadmin/changepw
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+memberOf: CN=Denied RODC Password Replication Group,CN=Users,DC=edt,DC=org
+distinguishedName: CN=krbtgt,CN=Users,DC=edt,DC=org
+
+dn: CN=9738c400-7795-4d6e-b19d-c16cd6486166,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 9738c400-7795-4d6e-b19d-c16cd6486166
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3461
+uSNChanged: 3461
+showInAdvancedViewOnly: TRUE
+name: 9738c400-7795-4d6e-b19d-c16cd6486166
+objectGUID:: CE1ujOGsqkuPW3nwHF3gTA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=9738c400-7795-4d6e-b19d-c16cd6486166,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=b96ed344-545a-4172-aa0c-68118202f125,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: b96ed344-545a-4172-aa0c-68118202f125
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3465
+uSNChanged: 3465
+showInAdvancedViewOnly: TRUE
+name: b96ed344-545a-4172-aa0c-68118202f125
+objectGUID:: jMOpPUBTDUOrgyO+5U6+9A==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=b96ed344-545a-4172-aa0c-68118202f125,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=services,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: services
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3719
+uSNChanged: 3719
+showInAdvancedViewOnly: TRUE
+name: services
+objectGUID:: xxqlJEWuuEyTXPpmVxHsVw==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=services,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=
+ org
+
+dn: CN=ipsecNegotiationPolicy{72385233-70FA-11D1-864C-14A300000000},CN=IP Secu
+ rity,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNegotiationPolicy
+cn: ipsecNegotiationPolicy{72385233-70FA-11D1-864C-14A300000000}
+description: Accepts unsecured communication, but requests clients to establis
+ h trust and security methods.  Will communicate insecurely to untrusted clien
+ ts if they do not respond to request.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3482
+uSNChanged: 3482
+showInAdvancedViewOnly: TRUE
+name: ipsecNegotiationPolicy{72385233-70FA-11D1-864C-14A300000000}
+objectGUID:: Ianp5X+o+kycVaDKMPLSMQ==
+ipsecName: Request Security (Optional)
+ipsecID: {72385233-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: uSDcgMgu0RGongCgJI0wIZQBAAAFAAAAhAMAAKCGAQAAAAAAAAAAAAEAAAADAAAAAg
+ AAAAIAAABAAAAACAAAAFwAUwBlAHIAdgBpAGMAZQBzAFwAUABvAGwAaQBjAHkAQQBnAGUAbgCEAwA
+ AoIYBAAAAAAAAAAAAAQAAAAEAAAACAAAAAgAAAEAAAAAIAAAAAAAAAFX0sjdcAEwAbwBjABUADwAB
+ AAgAIAJlACACZQBYxHYF+M54BSwBAACghgEAAAAAAAAAAAABAAAAAgAAAAAAAAABAAAAQAAAAAgAA
+ AAtADkAQQBDADEALQA0AEQANgBEAC0AQQAxAEIAMAAtADEANQA4ADcALAEAAKCGAQAAAAAAAAAAAA
+ EAAAABAAAAAAAAAAEAAABAAAAACAAAAGUAdABcAFMAZQByAHYAaQBjAGUAcwBcAFAAbwBsAGkAYwB
+ 5AEEAZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAgAAAEAAAAAIAAAANgBDAC0AMwBCADkA
+ NwAtADQANQA1ADIALQA4AEUANAA1AC0AOQA5AAA=
+ipsecOwnersReference: CN=ipsecNFA{72385232-70FA-11D1-864C-14A300000000},CN=IP 
+ Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-Negotiation-Policy,CN=Schema,CN=Configuration,DC=edt,
+ DC=org
+isCriticalSystemObject: TRUE
+iPSECNegotiationPolicyType: {62F49E10-6C37-11D1-864C-14A300000000}
+iPSECNegotiationPolicyAction: {3F91A81A-7647-11D1-864D-D46A00000000}
+distinguishedName: CN=ipsecNegotiationPolicy{72385233-70FA-11D1-864C-14A300000
+ 000},CN=IP Security,CN=System,DC=edt,DC=org
+
+dn: CN=Domain Admins,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Domain Admins
+description: Designated administrators of the domain
+member: CN=Administrator,CN=Users,DC=edt,DC=org
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3549
+uSNChanged: 3549
+name: Domain Admins
+objectGUID:: R8sTARn3qUW7Wr6a3O9dNQ==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUAAIAAA==
+adminCount: 1
+sAMAccountName: Domain Admins
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+memberOf: CN=Denied RODC Password Replication Group,CN=Users,DC=edt,DC=org
+memberOf: CN=Administrators,CN=Builtin,DC=edt,DC=org
+distinguishedName: CN=Domain Admins,CN=Users,DC=edt,DC=org
+
+dn: CN=byname,CN=protocols,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30NISMapConfig
+cn: byname
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3747
+uSNChanged: 3747
+showInAdvancedViewOnly: TRUE
+name: byname
+objectGUID:: iBNfyFuKykWCozqW/mGr4A==
+objectCategory: CN=msSFU-30-NIS-Map-Config,CN=Schema,CN=Configuration,DC=edt,D
+ C=org
+msSFU30KeyAttributes: msSFU30Name
+msSFU30FieldSeparator: "        "
+msSFU30IntraFieldSeparator: "        "
+msSFU30SearchAttributes: msSFU30Aliases
+msSFU30SearchAttributes: ipProtocolNumber
+msSFU30SearchAttributes: msSFU30Name
+msSFU30ResultAttributes: msSFU30Aliases
+msSFU30ResultAttributes: ipProtocolNumber
+msSFU30ResultAttributes: msSFU30Name
+msSFU30MapFilter: (objectCategory=ipProtocol)
+distinguishedName: CN=byname,CN=protocols,CN=ypServ30,CN=RpcServices,CN=System
+ ,DC=edt,DC=org
+
+dn: CN=0e660ea3-8a5e-4495-9ad7-ca1bd4638f9e,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 0e660ea3-8a5e-4495-9ad7-ca1bd4638f9e
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3405
+uSNChanged: 3405
+showInAdvancedViewOnly: TRUE
+name: 0e660ea3-8a5e-4495-9ad7-ca1bd4638f9e
+objectGUID:: eJndk9JfJkG7qZpCsUlv5Q==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=0e660ea3-8a5e-4495-9ad7-ca1bd4638f9e,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=a86fe12a-0f62-4e2a-b271-d27f601f8182,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: a86fe12a-0f62-4e2a-b271-d27f601f8182
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3406
+uSNChanged: 3406
+showInAdvancedViewOnly: TRUE
+name: a86fe12a-0f62-4e2a-b271-d27f601f8182
+objectGUID:: kGaxbvR5MkuNcU6NMXJ5dQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=a86fe12a-0f62-4e2a-b271-d27f601f8182,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: DC=a.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3616
+uSNChanged: 3616
+showInAdvancedViewOnly: TRUE
+name: a.root-servers.net
+objectGUID:: rG9DouEkiECoMGWe22MYFQ==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAxikABA==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: a.root-servers.net
+distinguishedName: DC=a.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: CN=ipsecNFA{59319C04-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Security,CN=System
+ ,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNFA
+cn: ipsecNFA{59319C04-5EE3-11D2-ACE8-0060B0ECCA17}
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3489
+showInAdvancedViewOnly: TRUE
+name: ipsecNFA{59319C04-5EE3-11D2-ACE8-0060B0ECCA17}
+objectGUID:: twe8DnV0UEWrAR+SfjAOOA==
+ipsecID: {59319C04-5EE3-11D2-ACE8-0060B0ECCA17}
+ipsecDataType: 598
+ipsecData:: AKy7EY1J0RGGOQCgJI0wISoAAAABAAAABQAAAAIAAAAAAP3///8CAAAAAAAAAAAAAA
+ AAAAEAAAACAAAAAAAA
+ipsecOwnersReference: CN=ipsecPolicy{72385236-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-NFA,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+ipsecNegotiationPolicyReference: CN=ipsecNegotiationPolicy{59319C01-5EE3-11D2-
+ ACE8-0060B0ECCA17},CN=IP Security,CN=System,DC=edt,DC=org
+whenChanged: 20201128201056.0Z
+uSNChanged: 3709
+distinguishedName: CN=ipsecNFA{59319C04-5EE3-11D2-ACE8-0060B0ECCA17},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+
+dn: CN=ipsecNFA{594272FD-071D-11D3-AD22-0060B0ECCA17},CN=IP Security,CN=System
+ ,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNFA
+cn: ipsecNFA{594272FD-071D-11D3-AD22-0060B0ECCA17}
+description: Permit unsecure ICMP packets to pass through.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3495
+uSNChanged: 3495
+showInAdvancedViewOnly: TRUE
+name: ipsecNFA{594272FD-071D-11D3-AD22-0060B0ECCA17}
+objectGUID:: hDT2FnIBNUCNf08UdmC3PA==
+ipsecName: Permit unsecure ICMP packets to pass through.
+ipsecID: {594272FD-071D-11D3-AD22-0060B0ECCA17}
+ipsecDataType: 598
+ipsecData:: AKy7EY1J0RGGOQCgJI0wISoAAAABAAAABQAAAAIAAAAAAP3///8CAAAAAAAAAAAAAA
+ AAAAEAAAACAAAAAAAA
+ipsecOwnersReference: CN=ipsecPolicy{7238523C-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+ipsecNegotiationPolicyReference: CN=ipsecNegotiationPolicy{7238523B-70FA-11D1-
+ 864C-14A300000000},CN=IP Security,CN=System,DC=edt,DC=org
+ipsecFilterReference: CN=ipsecFilter{72385235-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-NFA,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=ipsecNFA{594272FD-071D-11D3-AD22-0060B0ECCA17},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+
+dn: CN=Computers,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: Computers
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3374
+name: Computers
+objectGUID:: +D/N8Sr3KEe0kORhxjxDBA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+description: Default container for upgraded computer accounts
+systemFlags: -1946157056
+isCriticalSystemObject: TRUE
+showInAdvancedViewOnly: FALSE
+uSNChanged: 3375
+distinguishedName: CN=Computers,DC=edt,DC=org
+
+dn: CN=51cba88b-99cf-4e16-bef2-c427b38d0767,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 51cba88b-99cf-4e16-bef2-c427b38d0767
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3415
+uSNChanged: 3415
+showInAdvancedViewOnly: TRUE
+name: 51cba88b-99cf-4e16-bef2-c427b38d0767
+objectGUID:: e/L5dbCPcEa8sjn1JMUuhA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=51cba88b-99cf-4e16-bef2-c427b38d0767,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=edt,CN=networks,CN=ypServ30,CN=RpcServices,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msSFU30DomainInfo
+cn: edt
+instanceType: 4
+whenCreated: 20201128201058.0Z
+whenChanged: 20201128201058.0Z
+uSNCreated: 3744
+uSNChanged: 3744
+showInAdvancedViewOnly: TRUE
+name: edt
+objectGUID:: 1E+G5KcTekqlDQEQIRVWng==
+objectCategory: CN=msSFU-30-Domain-Info,CN=Schema,CN=Configuration,DC=edt,DC=o
+ rg
+msSFU30MasterServerName: AD
+msSFU30OrderNumber: 10000
+msSFU30Domains: edt
+distinguishedName: CN=edt,CN=networks,CN=ypServ30,CN=RpcServices,CN=System,DC=
+ edt,DC=org
+
+dn: CN=Terminal Server License Servers,CN=Builtin,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Terminal Server License Servers
+description: Members of this group can update user accounts in Active Director
+ y with information about license issuance, for the purpose of tracking and re
+ porting TS Per User CAL usage
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3577
+uSNChanged: 3577
+name: Terminal Server License Servers
+objectGUID:: a/kX1KXFXEK5c1UpP0NWcw==
+objectSid:: AQIAAAAAAAUgAAAAMQIAAA==
+sAMAccountName: Terminal Server License Servers
+sAMAccountType: 536870912
+systemFlags: -1946157056
+groupType: -2147483643
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+distinguishedName: CN=Terminal Server License Servers,CN=Builtin,DC=edt,DC=org
+
+dn: CN=Domain Controllers,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: group
+cn: Domain Controllers
+description: All domain controllers in the domain
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3544
+uSNChanged: 3544
+name: Domain Controllers
+objectGUID:: JE8QqXM42UasXn3nveMqYg==
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUBAIAAA==
+adminCount: 1
+sAMAccountName: Domain Controllers
+sAMAccountType: 268435456
+groupType: -2147483646
+objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+memberOf: CN=Denied RODC Password Replication Group,CN=Users,DC=edt,DC=org
+distinguishedName: CN=Domain Controllers,CN=Users,DC=edt,DC=org
+
+dn: CN=4aaabc3a-c416-4b9c-a6bb-4b453ab1c1f0,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 4aaabc3a-c416-4b9c-a6bb-4b453ab1c1f0
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3456
+uSNChanged: 3456
+showInAdvancedViewOnly: TRUE
+name: 4aaabc3a-c416-4b9c-a6bb-4b453ab1c1f0
+objectGUID:: zlUgC5bE0UOgeEln+NT+zQ==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=4aaabc3a-c416-4b9c-a6bb-4b453ab1c1f0,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: DC=j.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=System,DC=edt,D
+ C=org
+objectClass: top
+objectClass: dnsNode
+instanceType: 4
+whenCreated: 20201128201056.0Z
+whenChanged: 20201128201056.0Z
+uSNCreated: 3619
+uSNChanged: 3619
+showInAdvancedViewOnly: TRUE
+name: j.root-servers.net
+objectGUID:: UACS8v/W5E2HndMDIYh2og==
+dnsRecord:: BAABAAUIAAAAAAAAAAAAAAAAAAAAAAAAwDqAHg==
+objectCategory: CN=Dns-Node,CN=Schema,CN=Configuration,DC=edt,DC=org
+dc: j.root-servers.net
+distinguishedName: DC=j.root-servers.net,DC=RootDNSServers,CN=MicrosoftDNS,CN=
+ System,DC=edt,DC=org
+
+dn: CN=57428d75-bef7-43e1-938b-2e749f5a8d56,CN=Operations,CN=DomainUpdates,CN=
+ System,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: 57428d75-bef7-43e1-938b-2e749f5a8d56
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3458
+uSNChanged: 3458
+showInAdvancedViewOnly: TRUE
+name: 57428d75-bef7-43e1-938b-2e749f5a8d56
+objectGUID:: RFIqNQd3hUi+WP+YqHgE6g==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+distinguishedName: CN=57428d75-bef7-43e1-938b-2e749f5a8d56,CN=Operations,CN=Do
+ mainUpdates,CN=System,DC=edt,DC=org
+
+dn: CN=samba02,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: samba02
+instanceType: 4
+whenCreated: 20201128201100.0Z
+whenChanged: 20201128201100.0Z
+uSNCreated: 3772
+name: samba02
+objectGUID:: dME1Rkjay0mz4w62lnDymA==
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUUAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: samba02
+sAMAccountType: 805306368
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=edt,DC=org
+userAccountControl: 512
+pwdLastSet: 132510678600000000
+uSNChanged: 3774
+distinguishedName: CN=samba02,CN=Users,DC=edt,DC=org
+
+dn: CN=Password Settings Container,CN=System,DC=edt,DC=org
+objectClass: top
+objectClass: msDS-PasswordSettingsContainer
+cn: Password Settings Container
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3500
+uSNChanged: 3500
+showInAdvancedViewOnly: TRUE
+name: Password Settings Container
+objectGUID:: 6cdkiTbsUUWl6v1Sg7L7RQ==
+systemFlags: -1946157056
+objectCategory: CN=ms-DS-Password-Settings-Container,CN=Schema,CN=Configuratio
+ n,DC=edt,DC=org
+distinguishedName: CN=Password Settings Container,CN=System,DC=edt,DC=org
+
+dn: CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+objectClass: top
+objectClass: foreignSecurityPrincipal
+cn: S-1-5-11
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3560
+uSNChanged: 3560
+showInAdvancedViewOnly: TRUE
+name: S-1-5-11
+objectGUID:: jNHI4uuX5U+v9Oh3VLoasA==
+objectSid:: AQEAAAAAAAULAAAA
+objectCategory: CN=Foreign-Security-Principal,CN=Schema,CN=Configuration,DC=ed
+ t,DC=org
+memberOf: CN=Users,CN=Builtin,DC=edt,DC=org
+memberOf: CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=edt,DC=org
+distinguishedName: CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=edt,DC=org
+
+dn: CN=samba01,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: samba01
+instanceType: 4
+whenCreated: 20201128201058.0Z
+uSNCreated: 3769
+name: samba01
+objectGUID:: SN94FVovvEuT4mm9ueuDsQ==
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUTwQAAA==
+accountExpires: 9223372036854775807
+sAMAccountName: samba01
+sAMAccountType: 805306368
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=edt,DC=org
+userAccountControl: 512
+pwdLastSet: 132510678580000000
+lastLogonTimestamp: 132510679004229280
+whenChanged: 20201128201140.0Z
+uSNChanged: 3779
+lastLogon: 132510689132533700
+logonCount: 1
+distinguishedName: CN=samba01,CN=Users,DC=edt,DC=org
+
+dn: CN=ipsecNFA{594272E2-071D-11D3-AD22-0060B0ECCA17},CN=IP Security,CN=System
+ ,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNFA
+cn: ipsecNFA{594272E2-071D-11D3-AD22-0060B0ECCA17}
+description: Permit unsecure ICMP packets to pass through.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3481
+showInAdvancedViewOnly: TRUE
+name: ipsecNFA{594272E2-071D-11D3-AD22-0060B0ECCA17}
+objectGUID:: r+BmE+b7UEuApOkflLTC/g==
+ipsecName: Permit unsecure ICMP packets to pass through.
+ipsecID: {594272E2-071D-11D3-AD22-0060B0ECCA17}
+ipsecDataType: 598
+ipsecData:: AKy7EY1J0RGGOQCgJI0wISoAAAABAAAABQAAAAIAAAAAAP3///8CAAAAAAAAAAAAAA
+ AAAAEAAAACAAAAAAAA
+ipsecOwnersReference: CN=ipsecPolicy{72385230-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-NFA,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+ipsecNegotiationPolicyReference: CN=ipsecNegotiationPolicy{7238523B-70FA-11D1-
+ 864C-14A300000000},CN=IP Security,CN=System,DC=edt,DC=org
+whenChanged: 20201128201056.0Z
+ipsecFilterReference: CN=ipsecFilter{72385235-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+uSNChanged: 3711
+distinguishedName: CN=ipsecNFA{594272E2-071D-11D3-AD22-0060B0ECCA17},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+
+dn: CN=ipsecNFA{72385232-70FA-11D1-864C-14A300000000},CN=IP Security,CN=System
+ ,DC=edt,DC=org
+objectClass: top
+objectClass: ipsecBase
+objectClass: ipsecNFA
+cn: ipsecNFA{72385232-70FA-11D1-864C-14A300000000}
+description: For all IP traffic, always request security using Kerberos trust.
+  Allow unsecured communication with clients that do not respond to request.
+instanceType: 4
+whenCreated: 20201128201054.0Z
+uSNCreated: 3479
+showInAdvancedViewOnly: TRUE
+name: ipsecNFA{72385232-70FA-11D1-864C-14A300000000}
+objectGUID:: kNFA1eq5Z0CHNQGwrV7QVg==
+ipsecName: Request Security (Optional) Rule
+ipsecID: {72385232-70FA-11D1-864C-14A300000000}
+ipsecDataType: 598
+ipsecData:: AKy7EY1J0RGGOQCgJI0wISoAAAABAAAABQAAAAIAAAAAAP3///8CAAAAAAAAAAAAAA
+ AAAAEAAAACAAAAAAAA
+ipsecOwnersReference: CN=ipsecPolicy{72385230-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+objectCategory: CN=Ipsec-NFA,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: TRUE
+ipsecNegotiationPolicyReference: CN=ipsecNegotiationPolicy{72385233-70FA-11D1-
+ 864C-14A300000000},CN=IP Security,CN=System,DC=edt,DC=org
+whenChanged: 20201128201056.0Z
+ipsecFilterReference: CN=ipsecFilter{7238523A-70FA-11D1-864C-14A300000000},CN=
+ IP Security,CN=System,DC=edt,DC=org
+uSNChanged: 3713
+distinguishedName: CN=ipsecNFA{72385232-70FA-11D1-864C-14A300000000},CN=IP Sec
+ urity,CN=System,DC=edt,DC=org
+
+# refldap://edt.org/CN=Configuration,DC=edt,DC=org
+
+# refldap://edt.org/DC=DomainDnsZones,DC=edt,DC=org
+
+# refldap://edt.org/DC=ForestDnsZones,DC=edt,DC=org
+

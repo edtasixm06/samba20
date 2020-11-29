@@ -32,5 +32,9 @@ echo -e "Samba02\nSamba02\n" | smbpasswd -a samba02
 echo -e "Samba03\nSamba03\n" | smbpasswd -a samba03
 
 
+# Configurar el client ldap
+cp /opt/docker/ldap.conf /etc/openldap/ldap.conf
+cp /var/lib/samba/private/tls/ca,pem /etc/openldap/certs/.
+
 
 

@@ -326,9 +326,141 @@ $ ldapsearch -vx -LLL -h 172.19.0.2 -D 'cn=Administrator,cn=edt,dc=org' -w Passw
 ldap_initialize( ldap://172.19.0.2 )
 ldap_bind: Strong(er) authentication required (8)
 	additional info: BindSimple: Transport encryption required.
+
+[root@ad docker]# ldapsearch -x  -LLL  -Z -D 'cn=Administrator,cn=Users,dc=edt,dc=org' -w Passw0rd -b 'dc=edt,dc=org'
+
+[root@ad docker]# ldapsearch -x  -LLL  -Z -D 'cn=Administrator,cn=Users,dc=edt,dc=org' -w Passw0rd -b 'dc=edt,dc=org' 'cn=samba01'
+dn: CN=samba01,CN=Users,DC=edt,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: samba01
+instanceType: 4
+whenCreated: 20201128201058.0Z
+uSNCreated: 3769
+name: samba01
+objectGUID:: SN94FVovvEuT4mm9ueuDsQ==
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUTwQAAA==
+accountExpires: 9223372036854775807
+sAMAccountName: samba01
+sAMAccountType: 805306368
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=edt,DC=org
+userAccountControl: 512
+pwdLastSet: 132510678580000000
+lastLogonTimestamp: 132510679004229280
+whenChanged: 20201128201140.0Z
+uSNChanged: 3779
+lastLogon: 132510689132533700
+logonCount: 1
+distinguishedName: CN=samba01,CN=Users,DC=edt,DC=org
+# refldap://edt.org/CN=Configuration,DC=edt,DC=org
+# refldap://edt.org/DC=DomainDnsZones,DC=edt,DC=org
+# refldap://edt.org/DC=ForestDnsZones,DC=edt,DC=org
+
+[root@ad docker]# ldapsearch -x  -LLL  -Z -D 'cn=Administrator,cn=Users,dc=edt,dc=org' -w Passw0rd -b 'dc=edt,dc=org' -s one dn
+dn: CN=LostAndFound,DC=edt,DC=org
+dn: CN=Builtin,DC=edt,DC=org
+dn: OU=Domain Controllers,DC=edt,DC=org
+dn: CN=System,DC=edt,DC=org
+dn: CN=Program Data,DC=edt,DC=org
+dn: CN=NTDS Quotas,DC=edt,DC=org
+dn: CN=Users,DC=edt,DC=org
+dn: CN=ForeignSecurityPrincipals,DC=edt,DC=org
+dn: CN=Infrastructure,DC=edt,DC=org
+dn: CN=Computers,DC=edt,DC=org
+# refldap://edt.org/CN=Configuration,DC=edt,DC=org??base
+# refldap://edt.org/DC=DomainDnsZones,DC=edt,DC=org??base
+# refldap://edt.org/DC=ForestDnsZones,DC=edt,DC=org??base
+
+root@ad docker]# ldapsearch -x  -LLL  -Z -D 'cn=Administrator,cn=Users,dc=edt,dc=org' -w Passw0rd -b 'CN=computers,dc=edt,dc=org'     
+dn: CN=DM,CN=Computers,DC=edt,DC=org
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+objectClass: computer
+cn: DM
+instanceType: 4
+whenCreated: 20201128204448.0Z
+whenChanged: 20201128204448.0Z
+uSNCreated: 3781
+name: DM
+objectGUID:: EkG0eFdDu0yz74YBlJMayA==
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+primaryGroupID: 515
+objectSid:: AQUAAAAAAAUVAAAAPrR3fNk6AZLwayyUUgQAAA==
+accountExpires: 9223372036854775807
+sAMAccountName: DM$
+sAMAccountType: 805306369
+objectCategory: CN=Computer,CN=Schema,CN=Configuration,DC=edt,DC=org
+isCriticalSystemObject: FALSE
+msDS-SupportedEncryptionTypes: 31
+userAccountControl: 69632
+pwdLastSet: 132510698882824660
+dNSHostName: dm.edt.org
+servicePrincipalName: HOST/DM
+servicePrincipalName: HOST/dm.edt.org
+lastLogonTimestamp: 132510698885866770
+uSNChanged: 3785
+lastLogon: 132510702771054340
+logonCount: 5
+distinguishedName: CN=DM,CN=Computers,DC=edt,DC=org
+
+dn: CN=Computers,DC=edt,DC=org
+objectClass: top
+objectClass: container
+cn: Computers
+instanceType: 4
+whenCreated: 20201128201054.0Z
+whenChanged: 20201128201054.0Z
+uSNCreated: 3374
+name: Computers
+objectGUID:: +D/N8Sr3KEe0kORhxjxDBA==
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=edt,DC=org
+description: Default container for upgraded computer accounts
+systemFlags: -1946157056
+isCriticalSystemObject: TRUE
+showInAdvancedViewOnly: FALSE
+uSNChanged: 3375
+distinguishedName: CN=Computers,DC=edt,DC=org
+
+
+[root@ad docker]# ldapsearch -x  -LLL  -Z -D 'cn=Administrator,cn=Users,dc=edt,dc=org' -w Passw0rd -b 'CN=Users,dc=edt,dc=org' dn
+dn: CN=Allowed RODC Password Replication Group,CN=Users,DC=edt,DC=org
+dn: CN=samba03,CN=Users,DC=edt,DC=org
+dn: CN=DnsUpdateProxy,CN=Users,DC=edt,DC=org
+dn: CN=Domain Guests,CN=Users,DC=edt,DC=org
+dn: CN=Users,DC=edt,DC=org
+dn: CN=RAS and IAS Servers,CN=Users,DC=edt,DC=org
+dn: CN=Domain Computers,CN=Users,DC=edt,DC=org
+dn: CN=Domain Users,CN=Users,DC=edt,DC=org
+dn: CN=Administrator,CN=Users,DC=edt,DC=org
+dn: CN=Enterprise Admins,CN=Users,DC=edt,DC=org
+dn: CN=DnsAdmins,CN=Users,DC=edt,DC=org
+dn: CN=Cert Publishers,CN=Users,DC=edt,DC=org
+dn: CN=Read-only Domain Controllers,CN=Users,DC=edt,DC=org
+dn: CN=Denied RODC Password Replication Group,CN=Users,DC=edt,DC=org
+dn: CN=Schema Admins,CN=Users,DC=edt,DC=org
+dn: CN=Guest,CN=Users,DC=edt,DC=org
+dn: CN=Enterprise Read-only Domain Controllers,CN=Users,DC=edt,DC=org
+dn: CN=Group Policy Creator Owners,CN=Users,DC=edt,DC=org
+dn: CN=krbtgt,CN=Users,DC=edt,DC=org
+dn: CN=Domain Admins,CN=Users,DC=edt,DC=org
+dn: CN=Domain Controllers,CN=Users,DC=edt,DC=org
+dn: CN=samba02,CN=Users,DC=edt,DC=org
+dn: CN=samba01,CN=Users,DC=edt,DC=org
 ```
-Sembla que requereix que la connexió sigui usant TLS.
-Examinar com contactar amb el servidor ldap del samba i examinar també els certificats
 
 
 # Creació d'usuaris

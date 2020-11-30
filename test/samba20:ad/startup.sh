@@ -33,8 +33,24 @@ echo -e "Samba03\nSamba03\n" | smbpasswd -a samba03
 
 
 # Configurar el client ldap
-cp /opt/docker/ldap.conf /etc/openldap/ldap.conf
-cp /var/lib/samba/private/tls/ca,pem /etc/openldap/certs/.
+#cp /opt/docker/ldap.conf /etc/openldap/ldap.conf
+echo "BASE    dc=edt,dc=org" >> /etc/openldap/ldap.conf
+echo "URI     ldap://localhost" >> /etc/openldap/ldap.conf
+echo "TLS_CACERT /var/lib/samba/private/tls/ca.pem" >> /etc/openldap/ldap.conf
+#cp /var/lib/samba/private/tls/ca.pem /etc/openldap/certs/.
 
+# Test kerberos
+kinit
+klist
+kdestroy
 
+# Test DNS
+host -t SRV _ldap._tcp.edt.org
+host -t SRV _kerberos._udp.edt.or
+host -t A edt.org
+host -t ns edt.org
+
+# Test samba
+smbclient -L localhost -N
+smbclient //localhost/netlogon -UAdministrator -c 'ls'
 

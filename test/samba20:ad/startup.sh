@@ -83,4 +83,9 @@ chmod +x admin-tools
 # Administrar el AD des de windows remotament
 # https://wiki.samba.org/index.php/Installing_RSAT
 
+# Pendent:
+#   1- instal·lar RSAT
+#   2 - verificar kinit de samba01
+#   3 - crear més usuaris i grups del domini
+#   4 - admin de kerberos
 

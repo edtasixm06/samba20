@@ -70,6 +70,14 @@ getent passwd administrator
 getent group EDT\\domain\ users
 wbinfo --pam-logon EDT\\administrator
 
+
+# Crear usuaris samba
+echo "creant usuari samba10 .. 11 .. 12"
+samba-tool user create samba10 Samba10
+samba-tool user create samba11 Samba11
+samba-tool user create samba12 Samba12
+
+
 # ADUC
 # https://wiki.samba.org/index.php/Maintaining_Unix_Attributes_in_AD_using_ADUC
 #  Curses ADUC --> https://appimage.github.io/admin-tools/

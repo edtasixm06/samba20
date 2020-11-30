@@ -88,4 +88,4 @@ chmod +x admin-tools
 #   2 - verificar kinit de samba01
 #   3 - crear més usuaris i grups del domini
 #   4 - admin de kerberos
-
+#   5 - practicar ldbedit ....

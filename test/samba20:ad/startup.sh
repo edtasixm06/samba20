@@ -35,41 +35,19 @@ samba-tool user create samba12 Samba12
 
 # Configurar el client ldap
 #cp /opt/docker/ldap.conf /etc/openldap/ldap.conf
-cp /var/lib/samba/private/tls/ca.pem /etc/openldap/certs/.
 echo "BASE    dc=edt,dc=org" >> /etc/openldap/ldap.conf
 echo "URI     ldap://localhost" >> /etc/openldap/ldap.conf
 echo "TLS_CACERT /var/lib/samba/private/tls/ca.pem" >> /etc/openldap/ldap.conf
 echo "TLS_REQCERT allow" >> /etc/openldap/ldap.conf
+cp /var/lib/samba/private/tls/ca.pem /etc/openldap/certs/.
 
-# Test kerberos
-echo "Test Kerberos"
-kinit administrator
-klist
-kdestroy
 
-# Test DNS
-echo "Test DNS"
-host -t SRV _ldap._tcp.edt.org
-host -t SRV _kerberos._udp.edt.org
-host -t A edt.org
-host -t ns edt.org
-
-# Test samba
-echo "Test Samba"
-smbclient -L localhost -N
-smbclient //localhost/netlogon -UAdministrator -c 'ls'
-
-# Test LDAP
-echo "Test LDAP"
-ldapsearch -x  -LLL  -Z -D 'cn=Administrator,cn=Users,dc=edt,dc=org' -w Passw0rd -b 'CN=Users,dc=edt,dc=org' dn
-
-# Test winbind
-echo "test winbind"
-wbinfo -u
-wbinfo -g
-getent passwd administrator
-getent group EDT\\domain\ users
-wbinfo --pam-logon EDT\\administrator
+# Test de configuració
+echo  "-------------------------------"
+echo  "Executa el test de coniguració"
+echo  "bash startup-test.sh"
+echo  " administrator / Passw0rd "
+echo  "-------------------------------"
 
 
 # ADUC
@@ -92,3 +70,5 @@ wbinfo --pam-logon EDT\\administrator
 #   3 - crear més usuaris i grups del domini
 #   4 - admin de kerberos
 #   5 - practicar ldbedit ....
+
+/bin/bash

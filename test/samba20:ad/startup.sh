@@ -11,6 +11,7 @@ samba-tool domain provision --server-role=dc --use-rfc2307 --dns-backend=SAMBA_I
 # cat /etc/resolv.conf
 #search edt.org
 #nameserver 172.19.0.2
+cp /etc/resolv.conf /etc/resolv.bk
 cp /opt/docker/resolv.conf /etc/resolv.conf
 
 
@@ -26,11 +27,11 @@ cp /opt/docker/nsswitch.conf /etc/nsswitch.conf
 # Configurar PAM
 cp /opt/docker/system-auth /etc/pam.d/system-auth
 
-# Creació d'usuaris
-echo -e "Samba01\nSamba01\n" | smbpasswd -a samba01
-echo -e "Samba02\nSamba02\n" | smbpasswd -a samba02
-echo -e "Samba03\nSamba03\n" | smbpasswd -a samba03
-
+# Crear usuaris samba
+echo "creant usuari samba10 .. 11 .. 12"
+samba-tool user create samba10 Samba10
+samba-tool user create samba11 Samba11
+samba-tool user create samba12 Samba12
 
 # Configurar el client ldap
 #cp /opt/docker/ldap.conf /etc/openldap/ldap.conf
@@ -42,14 +43,14 @@ echo "TLS_REQCERT allow" >> /etc/openldap/ldap.conf
 
 # Test kerberos
 echo "Test Kerberos"
-kinit
+kinit administrator
 klist
 kdestroy
 
 # Test DNS
 echo "Test DNS"
 host -t SRV _ldap._tcp.edt.org
-host -t SRV _kerberos._udp.edt.or
+host -t SRV _kerberos._udp.edt.org
 host -t A edt.org
 host -t ns edt.org
 
@@ -71,21 +72,15 @@ getent group EDT\\domain\ users
 wbinfo --pam-logon EDT\\administrator
 
 
-# Crear usuaris samba
-echo "creant usuari samba10 .. 11 .. 12"
-samba-tool user create samba10 Samba10
-samba-tool user create samba11 Samba11
-samba-tool user create samba12 Samba12
-
-
 # ADUC
 # https://wiki.samba.org/index.php/Maintaining_Unix_Attributes_in_AD_using_ADUC
 #  Curses ADUC --> https://appimage.github.io/admin-tools/
 #  Appimage --> https://download.opensuse.org/repositories/home:/dmulder:/YaST:/AppImage/AppImage/admin-tools-latest-x86_64.AppImage.mirrorlist
-wget https://download.opensuse.org/repositories/home:/dmulder:/YaST:/AppImage/AppImage/admin-tools-latest-x86_64.AppImage
-mv admin-tools-latest-x86_64.AppImage admin-tools
-chmod +x admin-tools
-./admin-tools
+# (( ja estan incorporades a la imatge docker ))
+# wget https://download.opensuse.org/repositories/home:/dmulder:/YaST:/AppImage/AppImage/admin-tools-latest-x86_64.AppImage
+# mv admin-tools-latest-x86_64.AppImage admin-tools
+# chmod +x admin-tools
+# ./admin-tools
 
 ## RSAT
 # Administrar el AD des de windows remotament

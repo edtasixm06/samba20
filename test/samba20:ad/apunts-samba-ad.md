@@ -489,3 +489,19 @@ smb: \>
 
 ```
 
+
+## SMB.CONF
+
+atenció, cal afegir al que genera automàticament samba-provisioning les 
+següents línies al /etc/samba/smb.conf
+```
+        ;Permet a getent llistar els usuaris
+        winbind enum users = yes
+        winbind enum groups = yes
+
+        ; assignar un shell i un home generic
+        ; atenció, sinó el shell /bin/bash i inicia i tanca sessió automàticament
+        template shell = /bin/bash
+        template homedir = /home/%U
+
+```

@@ -18,6 +18,9 @@ cp /opt/docker/resolv.conf /etc/resolv.conf
 # Configurar kerberos
 cp /var/lib/samba/private/krb5.conf /etc/krb5.conf
 
+# Modificar la configuració de samba generada per personalitzar
+cp /opt/docker/smb.conf /etc/samba/smb.conf
+
 # Activar el servei
 samba
 

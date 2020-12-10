@@ -87,14 +87,14 @@ echo "BASE    dc=edt,dc=org" >> /etc/openldap/ldap.conf
 echo "URI     ldap://localhost" >> /etc/openldap/ldap.conf
 echo "TLS_CACERT /var/lib/samba/private/tls/ca.pem" >> /etc/openldap/ldap.conf
 echo "TLS_REQCERT allow" >> /etc/openldap/ldap.conf
-cp /var/lib/samba/private/tls/ca.pem /etc/openldap/certs/.
+cp /var/lib/samba/private/tls/ca.pem /etc/openldap/certs/
 
 # Modificar la configuració DNS per usar l'adreça externa pública
 # en lloc de l'adreça interna
 if [ -n "$ipin"  ]; then
   echo "modificant adreces DNS públiques"	
-  samba-tool dns update $ipout $domain $hostname.$domain A $ipin $ipout
-  samba-tool dns update $ipout $domain $domain A $ipin $ipout
+  samba-tool dns update $ipout $domain $hostname.$domain A $ipin $ipout -U administrator
+  samba-tool dns update $ipout $domain $domain A $ipin $ipout -U administrator
 fi	
 
 
@@ -127,6 +127,7 @@ echo  "-------------------------------"
 #   4 - admin de kerberos
 #   5 - practicar ldbedit ....
 
+cp /var/lib/samba/private/tls/ca.pem /etc/openldap/certs/
 while [ 1 -ne 0 ]; do
   sleep 1
 done

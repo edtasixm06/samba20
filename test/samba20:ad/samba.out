@@ -1,0 +1,49 @@
+INFO 2020-12-10 09:10:06,307 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2133: Looking up IPv4 addresses
+INFO 2020-12-10 09:10:06,307 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2150: Looking up IPv6 addresses
+WARNING 2020-12-10 09:10:06,307 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2157: No IPv6 address will be assigned
+INFO 2020-12-10 09:10:06,719 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2305: Setting up secrets.ldb
+INFO 2020-12-10 09:10:06,746 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2311: Setting up the registry
+INFO 2020-12-10 09:10:06,775 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2314: Setting up the privileges database
+INFO 2020-12-10 09:10:06,812 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2317: Setting up idmap db
+INFO 2020-12-10 09:10:06,838 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2324: Setting up SAM db
+INFO 2020-12-10 09:10:06,846 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #897: Setting up sam.ldb partitions and settings
+INFO 2020-12-10 09:10:06,847 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #909: Setting up sam.ldb rootDSE
+INFO 2020-12-10 09:10:06,855 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1338: Pre-loading the Samba 4 and AD schema
+Unable to determine the DomainSID, can not enforce uniqueness constraint on local domainSIDs
+
+INFO 2020-12-10 09:10:06,886 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1416: Adding DomainDN: DC=edt,DC=org
+INFO 2020-12-10 09:10:06,901 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1448: Adding configuration container
+INFO 2020-12-10 09:10:06,917 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1463: Setting up sam.ldb schema
+INFO 2020-12-10 09:10:09,549 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1481: Setting up sam.ldb configuration data
+INFO 2020-12-10 09:10:09,699 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1522: Setting up display specifiers
+INFO 2020-12-10 09:10:11,515 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1530: Modifying display specifiers and extended rights
+INFO 2020-12-10 09:10:11,548 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1537: Adding users container
+INFO 2020-12-10 09:10:11,550 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1543: Modifying users container
+INFO 2020-12-10 09:10:11,554 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1546: Adding computers container
+INFO 2020-12-10 09:10:11,555 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1552: Modifying computers container
+INFO 2020-12-10 09:10:11,557 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1556: Setting up sam.ldb data
+INFO 2020-12-10 09:10:11,693 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1586: Setting up well known security principals
+INFO 2020-12-10 09:10:11,736 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1600: Setting up sam.ldb users and groups
+INFO 2020-12-10 09:10:11,821 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #1608: Setting up self join
+Repacking database from v1 to v2 format (first record CN=ms-DFSR-ConflictPath,CN=Schema,CN=Configuration,DC=edt,DC=org)
+Repack: re-packed 10000 records so far
+Repacking database from v1 to v2 format (first record CN=group-Display,CN=C04,CN=DisplaySpecifiers,CN=Configuration,DC=edt,DC=org)
+Repacking database from v1 to v2 format (first record CN=4c93ad42-178a-4275-8600-16811d28f3aa,CN=Operations,CN=DomainUpdates,CN=System,DC=edt,DC=org)
+INFO 2020-12-10 09:10:12,893 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/sambadns.py #1143: Adding DNS accounts
+INFO 2020-12-10 09:10:12,917 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/sambadns.py #1177: Creating CN=MicrosoftDNS,CN=System,DC=edt,DC=org
+INFO 2020-12-10 09:10:12,934 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/sambadns.py #1190: Creating DomainDnsZones and ForestDnsZones partitions
+INFO 2020-12-10 09:10:12,983 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/sambadns.py #1195: Populating DomainDnsZones and ForestDnsZones partitions
+Repacking database from v1 to v2 format (first record DC=_kerberos._udp,DC=edt.org,CN=MicrosoftDNS,DC=DomainDnsZones,DC=edt,DC=org)
+Repacking database from v1 to v2 format (first record DC=ForestDnsZones,DC=edt,DC=org)
+INFO 2020-12-10 09:10:13,165 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2037: Setting up sam.ldb rootDSE marking as synchronized
+INFO 2020-12-10 09:10:13,170 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2042: Fixing provision GUIDs
+INFO 2020-12-10 09:10:14,305 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2370: The Kerberos KDC configuration for Samba AD is located at /var/lib/samba/private/kdc.conf
+INFO 2020-12-10 09:10:14,308 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2376: A Kerberos configuration suitable for Samba AD has been generated at /var/lib/samba/private/krb5.conf
+INFO 2020-12-10 09:10:14,308 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2378: Merge the contents of this file with your system krb5.conf or replace it with this one. Do not create a symlink!
+INFO 2020-12-10 09:10:14,375 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #2107: Setting up fake yp server settings
+INFO 2020-12-10 09:10:14,448 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #489: Once the above files are installed, your Samba AD server will be ready to use
+INFO 2020-12-10 09:10:14,448 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #494: Server Role:           active directory domain controller
+INFO 2020-12-10 09:10:14,448 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #495: Hostname:              ad
+INFO 2020-12-10 09:10:14,448 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #496: NetBIOS Domain:        EDT
+INFO 2020-12-10 09:10:14,448 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #497: DNS Domain:            edt.org
+INFO 2020-12-10 09:10:14,448 pid:745 /usr/lib64/python3.8/site-packages/samba/provision/__init__.py #498: DOMAIN SID:            S-1-5-21-3009202960-210076144-516113031

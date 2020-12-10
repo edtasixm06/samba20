@@ -48,6 +48,22 @@ wbinfo --pam-logon EDT\\administrator
 # Administrar el AD des de windows remotament
 # https://wiki.samba.org/index.php/Installing_RSAT
 
+
+# DNS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Pendent:
 #   1- instal·lar RSAT
 #   2 - verificar kinit de samba01

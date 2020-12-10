@@ -33,6 +33,12 @@ getent passwd administrator
 getent group EDT\\domain\ users
 wbinfo --pam-logon EDT\\administrator
 
+# Test base de dades DNS
+echo "Test base de dades DNS"
+samba-tool dns query 52.7.195.3 edt.org ad.edt.org A -U administrator
+samba-tool dns query 52.7.195.3 edt.org edt.org A -U administrator
+nslookup edt.org
+
 
 # ADUC
 # https://wiki.samba.org/index.php/Maintaining_Unix_Attributes_in_AD_using_ADUC

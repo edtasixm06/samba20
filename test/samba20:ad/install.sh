@@ -8,6 +8,7 @@
 if [ $# -ne 3 -a $# -ne 4 ]; then
   echo "Usage: $0 hostname domain ipout null|ipin" 
   echo "example install.sh ad edt.org 52.7.195.3 172.31.56.17" 
+  echo "administrator/Passw0rd"
   exit 1  
 fi
 

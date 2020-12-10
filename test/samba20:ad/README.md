@@ -2,8 +2,9 @@
 
 ## Samba al host (no docker)
 
-Directori de dades i scripts: samba20:base/test/samba20:ad
-Executar: ./install.sh ad edt.org 52.7.195.3 172.31.56.17
+ * Directori de dades i scripts: **samba20:base/test/samba20:ad**
+ * Usuari: **administrator** Password: **Passw0rd**
+ * Executar: **./install.sh ad edt.org 52.7.195.3 172.31.56.17**
    - genera el provisioning, configura els fitxers i crea usuaris
    - ad nom del host
    - edt.org nom del domini
@@ -14,7 +15,8 @@ Executar: ./install.sh ad edt.org 52.7.195.3 172.31.56.17
                 s'utilitza la externa, però el provisioning igualment posa la interna als registres
                 de DNS. Llavors cal canviar amb samba-tool les entrades DNS per publicar
                 l'adreça externa.
-
+ * Executar bash **startup-test.sh** per verificar que tot funciona ok.
+ * Executar ./admin-tools per verificar connectivitat i observar dades.
 
 ## Samba docker
 
